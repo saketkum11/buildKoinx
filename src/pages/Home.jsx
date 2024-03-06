@@ -16,43 +16,64 @@ const Home = () => {
     <div className="bg-gray-200 min-h-screen">
       <Header />
       <main>
-        <div className="max-w-sm mx-auto px-3">
+        <div className="mx-auto px-3">
           <Breadcrumbs />
-          <section className="flex justify-start items-center pb-4 ">
-            <Cryptocurency />
-          </section>
-          <section className="bg-white rounded-lg px-6 py-6 mb-5 ">
-            <CryptoChart />
-          </section>
-          <section className="mb-5">
-            <Tab />
-          </section>
-          <section className="bg-white rounded-lg px-2 py-6 mb-5">
-            <Performance />
-            <Fundamental />
-          </section>
-          <section className="bg-white rounded-lg px-2 py-6 mb-5">
-            <Sentiment />
-            <Fundamental />
-          </section>
-          <section className="bg-white rounded-lg px-2 py-6 mb-5">
-            <About />
-          </section>
-          <section className="bg-white rounded-lg px-2 py-6 mb-5">
-            <TeamCard />
-            <div className="my-4">
-              <Cryptos />
-              <Cryptos />
+          <div className="md:grid md:grid-cols-12 md:gap-4">
+            <div className="sm:col-span-8">
+              <section className="bg-white flex flex-col justify-start  p-4 rounded-lg ">
+                <div className="pb-4">
+                  <Cryptocurency />
+                </div>
+                <div className="pt-4">
+                  <CryptoChart />
+                </div>
+              </section>
+              <section className="mb-5">
+                <Tab />
+              </section>
+              <section className="bg-white rounded-lg px-2 py-6 mb-5">
+                <Performance />
+                <Fundamental />
+              </section>
+              <section className="bg-white rounded-lg px-2 py-6 mb-5">
+                <Sentiment />
+                <Fundamental />
+              </section>
+              <section className="bg-white rounded-lg px-2 py-6 mb-5">
+                <About />
+              </section>
+              <section className="bg-white rounded-lg px-2 py-6 mb-5">
+                <TeamCard />
+                <div className="my-4 block md:hidden">
+                  <Cryptos />
+                  <Cryptos />
+                </div>
+              </section>
             </div>
-          </section>
-          <section className="bg-blue-700 rounded-lg px-2 py-6 mb-5">
-            <CallToActionCard />
-          </section>
+            <div className="md:col-span-4 ">
+              <section className="">
+                <div className="mx-3">
+                  <div className="bg-blue-700  rounded-lg px-2 py-6 mb-5 mx-auto ">
+                    <CallToActionCard />
+                  </div>
+                  <div className="bg-white rounded-lg px-2 py-6 mb-5 hidden md:block">
+                    <TrendingCard />
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
         </div>
-        <section className="bg-white  px-2 py-6 mb-5">
-          <TrendingCard />
-        </section>
       </main>
+      <footer className="px-4 bg-white py-4">
+        <div className="my-4 bg-white hidden md:block">
+          <Cryptos />
+          <Cryptos />
+        </div>
+        <div className="bg-white rounded-lg px-2 py-6 mb-5 block md:hidden ">
+          <TrendingCard />
+        </div>
+      </footer>
     </div>
   );
 };

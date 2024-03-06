@@ -2,9 +2,9 @@ const Cryptos = () => {
   return (
     <div className="mt-4">
       <h2 className="text-2xl font-bold text-left ">You May Also Like</h2>
-      <div className="my-4 ">
-        <ul className="flex gap-2 overflow-x-auto">
-          <li className="border rounded-lg px-2 py-2 max-w-40 border-gray-200 shadow-sm border-solid">
+      <div className="my-4 px-4 ">
+        <ul className="flex gap-4  overflow-x-auto">
+          <li className="border rounded-lg px-2 py-2   min-w-72 md:max-w-40  border-gray-200 shadow-sm border-solid">
             <div className="flex flex-col">
               <div className="flex items-center gap-2 mb-1">
                 <div>
@@ -3961,7 +3961,7 @@ const Cryptos = () => {
               </div>
             </div>
           </li>
-          <li className="border rounded-lg px-2 py-2 max-w-40 border-gray-200 shadow-sm border-solid">
+          <li className="border rounded-lg px-2 py-2   min-w-72 md:max-w-40  border-gray-200 shadow-sm border-solid">
             <div className="flex flex-col">
               <div className="flex items-center gap-2 mb-1">
                 <div>
@@ -7918,7 +7918,11878 @@ const Cryptos = () => {
               </div>
             </div>
           </li>
-          <li className="border rounded-lg px-2 py-2 max-w-40 border-gray-200 shadow-sm border-solid">
+          <li className="border rounded-lg px-2 py-2   min-w-72 md:max-w-40  border-gray-200 shadow-sm border-solid">
+            <div className="flex flex-col">
+              <div className="flex items-center gap-2 mb-1">
+                <div>
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect
+                      x="0.984619"
+                      y="0.723389"
+                      width="16.4"
+                      height="16.4"
+                      rx="8.2"
+                      fill="url(#pattern0)"
+                    />
+                    <defs>
+                      <pattern
+                        id="pattern0"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlinkHref="#image0_57_1607"
+                          transform="scale(0.0192308)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_57_1607"
+                        width="52"
+                        height="52"
+                        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAAXNSR0IArs4c6QAADlZJREFUaEPVWmuMVdUV/vY+59xz5yVWnKZaUKhRBK1axcpDJD4i1j4SH6DGyK+2aoOYQo3G1iZVowXDGBWsTVprNC0KmthGg4/wUGScRpsIFtHERlptrKLAyLzuPWfv3Xxr3325M3PvzKBU7SHDnTnn3HP2t9da3/rW2ls55xwO8OBX8jxHFEXQWsu3+/v7sXXrVrz88st47bXXsHPnTrz77rvYtWsX+vr65J7m5ma0t7dj4sSJmDx5Mk455RScccYZ8tnU1CT3hGcnSXKAo/K3qwMFZIwREEopecBLL72Exx9/HM8//zzefvttlMvlYQMJ99abOw782GOPxXnnnYf58+fjzDPPrH6f7+KkHcgxZkDWWvAnjmN5PkGsWLECXV1dg97H62HgvL/eEaxKoBx0LVBabMmSJViwYIF8ldd5X/jOaODGBKh2pjZs2IBbbrkFnZ2d1WdzFjmoRgBGG0SwON8TjlmzZuG2227DOeecUwU2FmuNCoixwllnHNx4441YuXKlvICuEvx9tAEfyHW+ixbJsky+dt1112HZsmUSY2EsIz2vLqDgApwxvmDHjh247LLL8Prrr1fjh9b4FHwyJmzBxYLVTzrpJDz66KOYOnWqAA1uH2Kz9qENAfGLhUIBzz77LC6//HLs3btXHsRZ+jyP8M5x48ZhzZo1OP/886ugxgwomJaBz+DkTH0RYMLEhXcTwNq1a3HJJZc0dL9hFgpgnnnmGVx44YUChsFYG7Cfp4XCu8IYCIpjo6XqxdQgQIHN3njjDckHe/bs+VKAGQrq0EMPFZZlTA3NVVVAtATRk81mzpyJbdu2DXIzpjejNJT8s7Bw0ErDaf6tAUvB4QDJt158+NTL/52c8X+Hg+dqk+Z+wWKhEDlAK4VcOcBZOONzWnA/EgVVCdVHGLu8LSiFgJQ0SWoeGjNK+YQauxx8oWXuMZ4gKH44HC+Chg58+LmRtBavESbBEwI/+RarFAQb9sfzokWLcN999w2ykgAKYDZu3CiJjJYaSsk8FzsNQ8mjFazJ0PKN43DCxVfANkXICgpGG5jYwiYWKiJoB6ctnHKwiknTygiVdnAKcMrINY6U/xQcTOSgYcVCmbNobmnF7se7sOuxLVCRrlqKyZipg4n+7LPProJS1oqvCAjGzZYtW+rGDXEoFwORhjVltB1xHM75xV1Qxx+L3ihDqQkwBQeTGpSKJaCgYRILExkZpInKFSAEYKE0kMUlIKIdCMe7lAE9wAi4PsQ4BgX8a8FyfLC2axCg4EGzZ88WPRncTmVZ5niRdEiKpgIIWXqQyyuvrJ3J0DR+Is69aRWiScdjX7YLNo1hEwNbMDAFi7zA3x2ygkXG3xMCysUS0AZWWdAEVpvKOet/ZygqgsnQXwSOyFL85+oH8OHqTiiqesZSjb8GUBz7pZdeKuOuWojaiUKzUb6JdYTcGqQtR+OCJXejMOVE9JV64YqAiQGT5MgFjIVJc7FWlhoPKKU1BgSEd0ELaAICHN1PWwGitYWyBv2pw/goxceLfosPf7cBOo5h8nxYKISxzpgxQwhCrMQYopvVyvZheYb+5hyamr+G7/3oHrRM+Ta6TQ9UCuSFHHkC2DhHHjsBwhjKU1rIiLVyAkpLcLGDjWgNuhzjyEARoHbIIlrGYqBgcFihiD0/exDvr3wanEjjHJyrr9xDvG/evFkwCKDrr78e9957b/2cUwFTbJ6IH1zegfYpZ2Kv/QRZ0ceITTLkBQeXGPk7TxzKtFKhAjYlKAtTzGBjhzwxyOO8ahlFwogcMp3DxRrjY429v3oI7931JApRhBLJwhJQfW4MCZfsTAyqr6/PnX766di+fbvEyNASIIpiGJNjxqyrcda8n+OjgY8Rp1ZeXkpzlAtKBupiC5c42Jhul/m4SSwc3TBxyIo5TEKQFjY2IL9oVZZ4yiKHSDHHRPjgN09g552rkeoIJe2gjc9hjQCFMZ9wwgl45ZVXoDo7O93cuXNFRtT7kmLydBbF9HC0HtJeodvIJ1N6oib1eicVCpbTdKNKYiIlR5xlI+doDaFuSTServn9iEE/UEL3P/4tCdtGClHGjAfkkptH7hSQzF588UWojo4OxwqxkV6rLZ/5XIUYVlKdT6TBs4MKGPparxMGH7X38hkhicozpVjksx0si8YAZgQ8YewdHR1QCxcudA8//PAomq3esIZRx0E5IWojisSiohToBXb4pNS+LABauHAh1Ny5c90LL7xQN35CwqUrTjj8RBz5lekwysIoIGfzImJDhHFTcT0yWMQzSmKECZTu5iKfbiTPMH7IcGQ8ptCIlO8QaQtdyvDexi6oPT1ArAFDxUA9N7LLhTiaM2cO1KRJkxxbTvXkjriAimCdweyp12D+nFXo689hm3pRKmhhN8k5iRP6ZlJlMi2npHIGvycGYb6iEdIgyxkhFYsszZGllWs6R9JawL6n1mP7ottR6B1AlihYycfUDfVpu3bS2RpTra2trqenpyGgoJYVWvDdb92IOdOWom/AIWvuQ16hZq8IMgFDFnMxE6qFIUVLLiIQWofADbLUUzjVRSY5iveQMS2a25tR/vNG7Fh8B6L+AZg4gsup7RsHUTBGa2srFYWWO+lWI/YItIK2KS4+bRlmTLkWn5h9sEWLPPZ5xidRi0ys5S1F6/nEy8H7H1pI1AOpPslQKlJR0Jq0MFBKMrSML6K05mls++lykXom8u7X6CCgQF4CKAAZCVCkEhhHGk2wYGYHTpv8Q/TlPTIIulVWNOJmBFMqDHirpFQMBuWEg6fFCIif3iVdrARsnmYwKRM0k7NDKclRbG9C34N/wZs3d0AzbmXW60OqgiGwtrY2t2/fvhFcLtQznAUtmiu243HF7JU4+ehLsK/cA1tQ4kZ5oYxcBqsrwpQWokV8LEk8iXDN5TrJwsRe8xk5x08I+L5ihuLhRfTevwZv336/FJQjWYjGaGtrg5o8ebJ75513RgXEGki5CBoRrC6hYA/DlbPvxylHLUC/KsMkSmaZsz9AyxAEiULiyGGgWHE9GXQu7leqdUeJM19+5CmvW3xSLOHIQ9vw1g2/xs7fr4WSonJ/MzIADDE0adIkqDlz5jgKu1EbIZp1pENMiawccmfQEh2NqRNmAnEi5TnpWKiZnET6jowv8kjr1pOCKG4Wdkkl+fM+fo8UH2vksYVyFloUBoAU6H7zLXRvfQtKKzhfvg06Am2fddZZUFdddZV75JFHRgVEsUOJwlI4cpGvQkmlDfrXByXLVh4iikRK8PpcNyixrlixwi1durRhYg0DY550bK5TRDrfkGcp4EylOVKL4DMIC37VSyrmHv6238Ua5coAiIsHqqury9FU9ZZBBs8ye850B3jwMLA2xVfbjkISNQkDCTTW1pzNSuawdB3pbviCTlxLFEQlYYrA9ZNiNVW3v59Fo7IZYsTo/Xg3Bj75uGGcEyjF6aZNm3z5MH36dLAXV698qIISFc23F0TyuDzGd6bejLnH/xiOClLFks05KJbTflCehjk45hqh+JgleYWeqTJ4PuaPJw3EGbI0govLyFSOtvZ2bH/wbmz/4x/qkkIY87Rp0/Dqq6+OocCrIGIbS+ZdZ3AGmHfczfj+ib9EXirQwYUojC5XSolY6J1dIAY5qbnUnCGr0HZeyVlkO+atcoX5pISPWTM5lKJ+pIe0oufvndh81w0wu3dXlOpgUgjutnjxYtxzzz0eELsmIuzqtK+ChUjXbNVYl+G8Y5biom/egXxAiyWk9agz0L0YvOJiUuf48tpoJlife/wPf6+U6gm1H2neXxfdF5cQjyui/52/YdOyJRjo3iXxO1JNRAzsACljjKPZ2C0dqUnCPiPdbO6Ea3HFqXfC9beIRdgW9D02Njp8/WJCTDAe6ILSb2P+8X0GWsQrCa/hgo7zKqGEtDVF7/tbse7u61Da+361STKUOWubJGwNS5OkXC47BhRXGrjGWS8fBcudPuFKXHnqKqS94+BUPyyVuFjEg2F+oesRFP82lQCveKSwou8E+WYkS3hRCAmQFdgZyhCNK6Jn9+t46oGfoP+jf0LrIqwl0/kFsNojAHrsscekBceqW1wuNOloMiKtBRXKh+lHXIprZj2CQk/Rh4zPrzCV/q+3kmc6Xvc5a/+ntxxJwWs61lAEJHEjjZUBqJYcH+7ZhicfWox9H+1AxPaVNVB2ePkQxljbaJRSorYVTNpjW7WW7bSOZIZOnXgRZnz9MmT9vTAJ81CCyOWepn1noDp5Qs/kPGnxkqZJzZ7I2cISJuQ1KQytxJglON2Pv27+E3bv3ipgLGUO72MzYkgbK3jN+vXrpX0d2tnDmvVsgK9ataracBRpzqAPD/wMSVMQj+H74hVsPJJVHbsLnJ/9CTa4WsNmvdxfs5zCLio3UexfOeM4kkpjnQnPrws4MPvRt0Pbp3YJJZyuo5KrHRyvD6Vol4mjLjBiDLa1HCWWJOu8WjqMeTmFoILZuEhMUFxXHVW0HkzRNsqzwli44MVuL5NpwwWv8KywzPfcc8/hggsu+FIuSa5btw7z5s0bfUlyKKgnnnhCqPz/etE4gOLSBPMTLUWO7+7u/kJWwkPM0M24V4GWCXsVxrysP3TjBYUr9ypw40XYFPG/XBWvt/Fi9erVEjMMibCVZsyAamOzdmvMTTfdJGuaPMImpYMNbOjWGFLz8uXLP9vWmKFkU8skXIfl5iWyTDgO1ual2u02VAC33nrrwd+8FAY9dHsZlwHZHB+6vax2x1S93Vm1PbSQKmonkKtxXDwgGfEILnZQt5fVvnDoBkBaiuKQEuTTbADkfiJuADz33HMHbQAMG5fGsqWsdnyjbi+rl+vCtrLg77wnbNGkxbhFk62xRls0J0yYIFs0Tz75ZKlh+FksFuVVtGrYBVYv6EfL4/8FuuuicL1JnOIAAAAASUVORK5CYII="
+                      />
+                    </defs>
+                  </svg>
+                </div>
+                <div>
+                  <span className="font-bold text-xs">SOL</span>
+                  <span className="ml-1 font-bold text-xs text-red-500">
+                    -0.28%
+                  </span>
+                </div>
+              </div>
+              <p className="font-bold text-base">$109.34</p>
+              <div>
+                <svg
+                  width="128"
+                  height="39"
+                  viewBox="0 0 128 39"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clipPath="url(#clip0_57_1615)">
+                    <g clipPath="url(#clip1_57_1615)">
+                      <g clipPath="url(#clip2_57_1615)">
+                        <mask
+                          id="mask0_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask0_57_1615)">
+                          <path
+                            d="M19.9934 10.896L20.5157 10.9944"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask1_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_57_1615)">
+                          <path
+                            d="M20.5156 10.9941L21.0379 11.577"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask2_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask2_57_1615)">
+                          <path
+                            d="M21.038 11.577L21.5678 8.54932"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask3_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask3_57_1615)">
+                          <path
+                            d="M21.5677 8.54932L22.09 12.1447"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask4_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask4_57_1615)">
+                          <path
+                            d="M22.0901 12.1448L22.6124 5.27954"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask5_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask5_57_1615)">
+                          <path
+                            d="M22.6123 5.27954L23.1422 9.14742"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask6_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask6_57_1615)">
+                          <path
+                            d="M23.1422 9.14722L23.6645 10.8049"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask7_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask7_57_1615)">
+                          <path
+                            d="M23.6646 10.8052L24.1868 10.9641"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask8_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask8_57_1615)">
+                          <path
+                            d="M24.1868 10.9641L24.7166 18.3214"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask9_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask9_57_1615)">
+                          <path
+                            d="M24.7166 18.3213L25.2388 19.1085"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask10_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask10_57_1615)">
+                          <path
+                            d="M25.2389 19.1084L25.7612 23.7029"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask11_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask11_57_1615)">
+                          <path
+                            d="M25.7612 23.7029L26.2835 19.1008"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask12_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask12_57_1615)">
+                          <path
+                            d="M26.2834 19.1011L26.8133 14.4915"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask13_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask13_57_1615)">
+                          <path
+                            d="M26.8132 14.4915L27.3355 17.2845"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask14_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask14_57_1615)">
+                          <path
+                            d="M27.3356 17.2842L27.8578 14.6274"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask15_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask15_57_1615)">
+                          <path
+                            d="M27.8578 14.6274L28.3876 16.7241"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask16_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask16_57_1615)">
+                          <path
+                            d="M28.3877 16.7244L28.91 20.4333"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask17_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask17_57_1615)">
+                          <path
+                            d="M28.9099 20.4331L29.4322 20.7662"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask18_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask18_57_1615)">
+                          <path
+                            d="M29.4323 20.7659L29.9621 18.0562"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask19_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask19_57_1615)">
+                          <path
+                            d="M29.9622 18.0562L30.4844 24.876"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask20_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask20_57_1615)">
+                          <path
+                            d="M30.4844 24.876L31.0067 27.8583"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask21_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask21_57_1615)">
+                          <path
+                            d="M31.0066 27.8586L31.5364 25.7468"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask22_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask22_57_1615)">
+                          <path
+                            d="M31.5365 25.7469L32.0588 25.4441"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask23_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask23_57_1615)">
+                          <path
+                            d="M32.0587 25.444L32.581 24.5281"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask24_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask24_57_1615)">
+                          <path
+                            d="M32.5811 24.5281L33.1109 24.301"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask25_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask25_57_1615)">
+                          <path
+                            d="M33.111 24.301L33.6332 24.1799"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask26_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask26_57_1615)">
+                          <path
+                            d="M33.6332 24.1799L34.1555 24.9444"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask27_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask27_57_1615)">
+                          <path
+                            d="M34.1555 24.9443L34.6778 25.459"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask28_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask28_57_1615)">
+                          <path
+                            d="M34.6777 25.4589L35.2076 24.2402"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask29_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask29_57_1615)">
+                          <path
+                            d="M35.2075 24.2402L35.7298 24.7474"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask30_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask30_57_1615)">
+                          <path
+                            d="M35.7299 24.7476L36.2521 30.924"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask31_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask31_57_1615)">
+                          <path
+                            d="M36.2522 30.9243L36.782 32.7863"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask32_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask32_57_1615)">
+                          <path
+                            d="M36.782 32.7861L37.3043 38.5387"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask33_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask33_57_1615)">
+                          <path
+                            d="M37.3042 38.5387L37.8265 35.4656"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask34_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask34_57_1615)">
+                          <path
+                            d="M37.8265 35.4656L38.3564 36.9946"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask35_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask35_57_1615)">
+                          <path
+                            d="M38.3563 36.9946L38.8786 35.2764"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask36_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask36_57_1615)">
+                          <path
+                            d="M38.8787 35.2764L39.4009 35.67"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask37_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask37_57_1615)">
+                          <path
+                            d="M39.4009 35.6699L39.9307 32.0442"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask38_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask38_57_1615)">
+                          <path
+                            d="M39.9308 32.0442L40.4531 35.4503"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask39_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask39_57_1615)">
+                          <path
+                            d="M40.453 35.4504L40.9753 33.4673"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask40_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask40_57_1615)">
+                          <path
+                            d="M40.9752 33.4673L41.5051 26.5945"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask41_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask41_57_1615)">
+                          <path
+                            d="M41.5051 26.5945L42.0274 30.9317"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask42_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask42_57_1615)">
+                          <path
+                            d="M42.0275 30.9316L42.5497 34.9055"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask43_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask43_57_1615)">
+                          <path
+                            d="M42.5497 34.9056L43.072 27.9268"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask44_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask44_57_1615)">
+                          <path
+                            d="M43.072 27.927L43.6019 26.1406"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask45_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask45_57_1615)">
+                          <path
+                            d="M43.6018 26.1403L44.1241 24.4524"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask46_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask46_57_1615)">
+                          <path
+                            d="M44.1241 24.4524L44.6464 24.3994"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask47_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask47_57_1615)">
+                          <path
+                            d="M44.6464 24.3992L45.1762 21.9165"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask48_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask48_57_1615)">
+                          <path
+                            d="M45.1763 21.9168L45.6985 19.0405"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask49_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask49_57_1615)">
+                          <path
+                            d="M45.6985 19.0405L46.2208 24.2255"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask50_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask50_57_1615)">
+                          <path
+                            d="M46.2208 24.2254L46.7507 17.4812"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask51_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask51_57_1615)">
+                          <path
+                            d="M46.7506 17.481L47.2729 17.1631"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask52_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask52_57_1615)">
+                          <path
+                            d="M47.2729 17.1631L47.7952 18.0638"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask53_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask53_57_1615)">
+                          <path
+                            d="M47.7952 18.0637L48.325 20.0014"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask54_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask54_57_1615)">
+                          <path
+                            d="M48.3251 20.0015L48.8474 20.5767"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask55_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask55_57_1615)">
+                          <path
+                            d="M48.8473 20.5769L49.3696 18.5105"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask56_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask56_57_1615)">
+                          <path
+                            d="M49.3696 18.5105L49.8995 16.8149"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask57_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask57_57_1615)">
+                          <path
+                            d="M49.8994 16.8149L50.4217 22.5373"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask58_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask58_57_1615)">
+                          <path
+                            d="M50.4216 22.5374L50.9439 24.74"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask59_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask59_57_1615)">
+                          <path
+                            d="M50.944 24.7402L51.4662 28.0253"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask60_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask60_57_1615)">
+                          <path
+                            d="M51.4663 28.0252L51.9962 23.4382"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask61_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask61_57_1615)">
+                          <path
+                            d="M51.9962 23.4381L52.5185 22.3784"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask62_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask62_57_1615)">
+                          <path
+                            d="M52.5183 22.3784L53.0406 25.5196"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask63_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask63_57_1615)">
+                          <path
+                            d="M53.0406 25.5195L53.5705 26.4278"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask64_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask64_57_1615)">
+                          <path
+                            d="M53.5706 26.4277L54.0928 24.384"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask65_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask65_57_1615)">
+                          <path
+                            d="M54.0928 24.384L54.615 22.3328"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask66_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask66_57_1615)">
+                          <path
+                            d="M54.615 22.3328L55.1448 22.5977"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask67_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask67_57_1615)">
+                          <path
+                            d="M55.1449 22.598L55.6672 21.8259"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask68_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask68_57_1615)">
+                          <path
+                            d="M55.6672 21.8259L56.1895 24.9066"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask69_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask69_57_1615)">
+                          <path
+                            d="M56.1895 24.9065L56.7193 27.8206"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask70_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask70_57_1615)">
+                          <path
+                            d="M56.7192 27.8207L57.2415 26.8821"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask71_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask71_57_1615)">
+                          <path
+                            d="M57.2416 26.8823L57.7639 25.3381"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask72_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask72_57_1615)">
+                          <path
+                            d="M57.7638 25.3381L58.2936 25.3987"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask73_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask73_57_1615)">
+                          <path
+                            d="M58.2937 25.3984L58.816 27.9947"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask74_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask74_57_1615)">
+                          <path
+                            d="M58.8159 27.9946L59.3382 31.3781"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask75_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask75_57_1615)">
+                          <path
+                            d="M59.3383 31.3779L59.8605 31.3552"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask76_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask76_57_1615)">
+                          <path
+                            d="M59.8605 31.3553L60.3903 30.5151"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask77_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask77_57_1615)">
+                          <path
+                            d="M60.3904 30.5151L60.9127 30.553"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask78_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask78_57_1615)">
+                          <path
+                            d="M60.9127 30.5532L61.435 28.676"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask79_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask79_57_1615)">
+                          <path
+                            d="M61.4349 28.676L61.9648 29.3421"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask80_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask80_57_1615)">
+                          <path
+                            d="M61.9647 29.3421L62.487 27.0032"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask81_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask81_57_1615)">
+                          <path
+                            d="M62.4871 27.0032L63.0093 26.9199"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask82_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask82_57_1615)">
+                          <path
+                            d="M63.0094 26.9199L63.5392 28.2824"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask83_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask83_57_1615)">
+                          <path
+                            d="M63.5392 28.2823L64.0615 27.6011"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask84_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask84_57_1615)">
+                          <path
+                            d="M64.0615 27.6011L64.5838 28.691"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask85_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask85_57_1615)">
+                          <path
+                            d="M64.5837 28.6911L65.1136 27.3362"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask86_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask86_57_1615)">
+                          <path
+                            d="M65.1136 27.3362L65.6359 27.8055"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask87_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask87_57_1615)">
+                          <path
+                            d="M65.6359 27.8057L66.1581 29.9175"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask88_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask88_57_1615)">
+                          <path
+                            d="M66.1582 29.9172L66.688 30.871"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask89_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask89_57_1615)">
+                          <path
+                            d="M66.688 30.8711L67.2103 31.3404"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask90_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask90_57_1615)">
+                          <path
+                            d="M67.2102 31.3403L67.7325 29.8037"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask91_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask91_57_1615)">
+                          <path
+                            d="M67.7325 29.8037L68.2624 32.1729"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask92_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask92_57_1615)">
+                          <path
+                            d="M68.2623 32.1729L68.7846 34.0197"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask93_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask93_57_1615)">
+                          <path
+                            d="M68.7847 34.0198L69.3069 33.4673"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask94_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask94_57_1615)">
+                          <path
+                            d="M69.3069 33.4673L69.8292 30.9619"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask95_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask95_57_1615)">
+                          <path
+                            d="M69.8292 30.9619L70.3591 31.0755"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask96_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask96_57_1615)">
+                          <path
+                            d="M70.3591 31.0753L70.8814 29.9551"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask97_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask97_57_1615)">
+                          <path
+                            d="M70.8813 29.9552L71.4036 27.0107"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask98_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask98_57_1615)">
+                          <path
+                            d="M71.4037 27.0107L71.9335 27.147"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask99_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask99_57_1615)">
+                          <path
+                            d="M71.9335 27.1469L72.4557 25.5195"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask100_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask100_57_1615)">
+                          <path
+                            d="M72.4557 25.5195L72.978 26.4203"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask101_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask101_57_1615)">
+                          <path
+                            d="M72.978 26.4204L73.5079 26.4355"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask102_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask102_57_1615)">
+                          <path
+                            d="M73.5079 26.4353L74.0302 27.2074"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask103_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask103_57_1615)">
+                          <path
+                            d="M74.0302 27.2075L74.5524 28.0553"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask104_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask104_57_1615)">
+                          <path
+                            d="M74.5524 28.0554L75.0822 28.4263"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask105_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask105_57_1615)">
+                          <path
+                            d="M75.0823 28.4263L75.6046 29.9023"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask106_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask106_57_1615)">
+                          <path
+                            d="M75.6046 29.9023L76.1269 28.0706"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask107_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask107_57_1615)">
+                          <path
+                            d="M76.1268 28.0705L76.6567 26.2388"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask108_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask108_57_1615)">
+                          <path
+                            d="M76.6566 26.2388L77.1789 26.8443"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask109_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask109_57_1615)">
+                          <path
+                            d="M77.179 26.8442L77.7012 27.2454"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask110_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask110_57_1615)">
+                          <path
+                            d="M77.7012 27.2453L78.2235 25.4211"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask111_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask111_57_1615)">
+                          <path
+                            d="M78.2235 25.4211L78.7534 26.2613"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask112_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask112_57_1615)">
+                          <path
+                            d="M78.7533 26.2615L79.2756 30.8106"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask113_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask113_57_1615)">
+                          <path
+                            d="M79.2756 30.8105L79.7979 32.12"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask114_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask114_57_1615)">
+                          <path
+                            d="M79.798 32.12L80.3278 30.6365"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask115_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask115_57_1615)">
+                          <path
+                            d="M80.3276 30.6365L80.8499 26.269"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask116_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask116_57_1615)">
+                          <path
+                            d="M80.85 26.269L81.3723 27.0638"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask117_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask117_57_1615)">
+                          <path
+                            d="M81.3723 27.0637L81.9022 29.0393"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask118_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask118_57_1615)">
+                          <path
+                            d="M81.9022 29.0393L82.4245 30.0612"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask119_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask119_57_1615)">
+                          <path
+                            d="M82.4244 30.061L82.9467 31.0677"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask120_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask120_57_1615)">
+                          <path
+                            d="M82.9467 31.068L83.4765 30.031"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask121_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask121_57_1615)">
+                          <path
+                            d="M83.4766 30.031L83.9988 29.645"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask122_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask122_57_1615)">
+                          <path
+                            d="M83.9989 29.645L84.5212 29.9856"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask123_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask123_57_1615)">
+                          <path
+                            d="M84.521 29.9855L85.0508 26.761"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask124_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask124_57_1615)">
+                          <path
+                            d="M85.0509 26.761L85.5732 26.2917"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask125_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask125_57_1615)">
+                          <path
+                            d="M85.5732 26.2917L86.0955 26.7005"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask126_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask126_57_1615)">
+                          <path
+                            d="M86.0956 26.7004L86.6179 24.5281"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask127_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask127_57_1615)">
+                          <path
+                            d="M86.6178 24.528L87.1476 23.491"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask128_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask128_57_1615)">
+                          <path
+                            d="M87.1476 23.491L87.6699 25.8223"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask129_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask129_57_1615)">
+                          <path
+                            d="M87.6699 25.8224L88.1922 22.5525"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask130_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask130_57_1615)">
+                          <path
+                            d="M88.1921 22.5523L88.722 21.75"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask131_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask131_57_1615)">
+                          <path
+                            d="M88.722 21.7503L89.2443 20.9707"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask132_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask132_57_1615)">
+                          <path
+                            d="M89.2443 20.9704L89.7665 18.957"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask133_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask133_57_1615)">
+                          <path
+                            d="M89.7666 18.957L90.2965 17.0571"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask134_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask134_57_1615)">
+                          <path
+                            d="M90.2964 17.0571L90.8187 18.5558"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask135_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask135_57_1615)">
+                          <path
+                            d="M90.8187 18.5557L91.341 18.813"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask136_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask136_57_1615)">
+                          <path
+                            d="M91.3409 18.8132L91.8708 18.6997"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask137_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask137_57_1615)">
+                          <path
+                            d="M91.8708 18.6995L92.3931 15.8459"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask138_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask138_57_1615)">
+                          <path
+                            d="M92.3931 15.846L92.9153 15.4675"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask139_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask139_57_1615)">
+                          <path
+                            d="M92.9154 15.4678L93.4452 12.6975"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask140_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask140_57_1615)">
+                          <path
+                            d="M93.4452 12.6972L93.9675 11.085"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask141_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask141_57_1615)">
+                          <path
+                            d="M93.9675 11.085L94.4898 11.9251"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask142_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask142_57_1615)">
+                          <path
+                            d="M94.4897 11.9256L95.012 9.50342"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask143_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask143_57_1615)">
+                          <path
+                            d="M95.0121 9.50342L95.5419 9.61696"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask144_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask144_57_1615)">
+                          <path
+                            d="M95.5419 9.61651L96.0641 9.09424"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask145_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask145_57_1615)">
+                          <path
+                            d="M96.0642 9.09437L96.5865 5.84717"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask146_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask146_57_1615)">
+                          <path
+                            d="M96.5864 5.84718L97.1163 5.73364"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask147_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask147_57_1615)">
+                          <path
+                            d="M97.1163 5.73356L97.6386 2.2063"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask148_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask148_57_1615)">
+                          <path
+                            d="M97.6385 2.2063L98.1608 3.32655"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask149_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask149_57_1615)">
+                          <path
+                            d="M98.1609 3.32642L98.6907 6.92937"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask150_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask150_57_1615)">
+                          <path
+                            d="M98.6907 6.92969L99.213 8.09535"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask151_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask151_57_1615)">
+                          <path
+                            d="M99.213 8.09525L99.7353 7.80005"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask152_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask152_57_1615)">
+                          <path
+                            d="M99.7352 7.80005L100.265 13.7268"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask153_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask153_57_1615)">
+                          <path
+                            d="M100.265 13.7268L100.787 14.5064"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask154_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask154_57_1615)">
+                          <path
+                            d="M100.787 14.5064L101.31 14.408"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask155_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask155_57_1615)">
+                          <path
+                            d="M101.31 14.408L101.84 19.275"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask156_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask156_57_1615)">
+                          <path
+                            d="M101.839 19.275L102.362 18.8057"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask157_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask157_57_1615)">
+                          <path
+                            d="M102.362 18.8057L102.884 19.8654"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask158_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask158_57_1615)">
+                          <path
+                            d="M102.884 19.8652L103.406 20.1302"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask159_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask159_57_1615)">
+                          <path
+                            d="M103.406 20.1303L103.936 19.0024"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask160_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask160_57_1615)">
+                          <path
+                            d="M103.936 19.0025L104.459 18.8208"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask161_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask161_57_1615)">
+                          <path
+                            d="M104.458 18.8208L104.981 21.2732"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask162_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask162_57_1615)">
+                          <path
+                            d="M104.981 21.2733L105.511 20.2061"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask163_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask163_57_1615)">
+                          <path
+                            d="M105.511 20.206L106.033 18.2759"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask164_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask164_57_1615)">
+                          <path
+                            d="M106.033 18.2759L106.555 19.3053"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask165_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask165_57_1615)">
+                          <path
+                            d="M106.555 19.3054L107.085 19.0632"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask166_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask166_57_1615)">
+                          <path
+                            d="M107.085 19.0632L107.607 19.2676"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask167_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask167_57_1615)">
+                          <path
+                            d="M107.607 19.2673L108.13 17.7913"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_57_1615">
+                      <rect
+                        width="126.154"
+                        height="37.8461"
+                        fill="white"
+                        transform="translate(0.984619 0.692627)"
+                      />
+                    </clipPath>
+                    <clipPath id="clip1_57_1615">
+                      <rect
+                        width="126.154"
+                        height="37.8461"
+                        fill="white"
+                        transform="translate(0.984619 0.692627)"
+                      />
+                    </clipPath>
+                    <clipPath id="clip2_57_1615">
+                      <rect
+                        width="88.56"
+                        height="37.8461"
+                        fill="white"
+                        transform="translate(19.7815 0.692627)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li className="border rounded-lg px-2 py-2   min-w-72 md:max-w-40  border-gray-200 shadow-sm border-solid">
+            <div className="flex flex-col">
+              <div className="flex items-center gap-2 mb-1">
+                <div>
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect
+                      x="0.984619"
+                      y="0.723389"
+                      width="16.4"
+                      height="16.4"
+                      rx="8.2"
+                      fill="url(#pattern0)"
+                    />
+                    <defs>
+                      <pattern
+                        id="pattern0"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlinkHref="#image0_57_1607"
+                          transform="scale(0.0192308)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_57_1607"
+                        width="52"
+                        height="52"
+                        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAAXNSR0IArs4c6QAADlZJREFUaEPVWmuMVdUV/vY+59xz5yVWnKZaUKhRBK1axcpDJD4i1j4SH6DGyK+2aoOYQo3G1iZVowXDGBWsTVprNC0KmthGg4/wUGScRpsIFtHERlptrKLAyLzuPWfv3Xxr3325M3PvzKBU7SHDnTnn3HP2t9da3/rW2ls55xwO8OBX8jxHFEXQWsu3+/v7sXXrVrz88st47bXXsHPnTrz77rvYtWsX+vr65J7m5ma0t7dj4sSJmDx5Mk455RScccYZ8tnU1CT3hGcnSXKAo/K3qwMFZIwREEopecBLL72Exx9/HM8//zzefvttlMvlYQMJ99abOw782GOPxXnnnYf58+fjzDPPrH6f7+KkHcgxZkDWWvAnjmN5PkGsWLECXV1dg97H62HgvL/eEaxKoBx0LVBabMmSJViwYIF8ldd5X/jOaODGBKh2pjZs2IBbbrkFnZ2d1WdzFjmoRgBGG0SwON8TjlmzZuG2227DOeecUwU2FmuNCoixwllnHNx4441YuXKlvICuEvx9tAEfyHW+ixbJsky+dt1112HZsmUSY2EsIz2vLqDgApwxvmDHjh247LLL8Prrr1fjh9b4FHwyJmzBxYLVTzrpJDz66KOYOnWqAA1uH2Kz9qENAfGLhUIBzz77LC6//HLs3btXHsRZ+jyP8M5x48ZhzZo1OP/886ugxgwomJaBz+DkTH0RYMLEhXcTwNq1a3HJJZc0dL9hFgpgnnnmGVx44YUChsFYG7Cfp4XCu8IYCIpjo6XqxdQgQIHN3njjDckHe/bs+VKAGQrq0EMPFZZlTA3NVVVAtATRk81mzpyJbdu2DXIzpjejNJT8s7Bw0ErDaf6tAUvB4QDJt158+NTL/52c8X+Hg+dqk+Z+wWKhEDlAK4VcOcBZOONzWnA/EgVVCdVHGLu8LSiFgJQ0SWoeGjNK+YQauxx8oWXuMZ4gKH44HC+Chg58+LmRtBavESbBEwI/+RarFAQb9sfzokWLcN999w2ykgAKYDZu3CiJjJYaSsk8FzsNQ8mjFazJ0PKN43DCxVfANkXICgpGG5jYwiYWKiJoB6ctnHKwiknTygiVdnAKcMrINY6U/xQcTOSgYcVCmbNobmnF7se7sOuxLVCRrlqKyZipg4n+7LPProJS1oqvCAjGzZYtW+rGDXEoFwORhjVltB1xHM75xV1Qxx+L3ihDqQkwBQeTGpSKJaCgYRILExkZpInKFSAEYKE0kMUlIKIdCMe7lAE9wAi4PsQ4BgX8a8FyfLC2axCg4EGzZ88WPRncTmVZ5niRdEiKpgIIWXqQyyuvrJ3J0DR+Is69aRWiScdjX7YLNo1hEwNbMDAFi7zA3x2ygkXG3xMCysUS0AZWWdAEVpvKOet/ZygqgsnQXwSOyFL85+oH8OHqTiiqesZSjb8GUBz7pZdeKuOuWojaiUKzUb6JdYTcGqQtR+OCJXejMOVE9JV64YqAiQGT5MgFjIVJc7FWlhoPKKU1BgSEd0ELaAICHN1PWwGitYWyBv2pw/goxceLfosPf7cBOo5h8nxYKISxzpgxQwhCrMQYopvVyvZheYb+5hyamr+G7/3oHrRM+Ta6TQ9UCuSFHHkC2DhHHjsBwhjKU1rIiLVyAkpLcLGDjWgNuhzjyEARoHbIIlrGYqBgcFihiD0/exDvr3wanEjjHJyrr9xDvG/evFkwCKDrr78e9957b/2cUwFTbJ6IH1zegfYpZ2Kv/QRZ0ceITTLkBQeXGPk7TxzKtFKhAjYlKAtTzGBjhzwxyOO8ahlFwogcMp3DxRrjY429v3oI7931JApRhBLJwhJQfW4MCZfsTAyqr6/PnX766di+fbvEyNASIIpiGJNjxqyrcda8n+OjgY8Rp1ZeXkpzlAtKBupiC5c42Jhul/m4SSwc3TBxyIo5TEKQFjY2IL9oVZZ4yiKHSDHHRPjgN09g552rkeoIJe2gjc9hjQCFMZ9wwgl45ZVXoDo7O93cuXNFRtT7kmLydBbF9HC0HtJeodvIJ1N6oib1eicVCpbTdKNKYiIlR5xlI+doDaFuSTServn9iEE/UEL3P/4tCdtGClHGjAfkkptH7hSQzF588UWojo4OxwqxkV6rLZ/5XIUYVlKdT6TBs4MKGPparxMGH7X38hkhicozpVjksx0si8YAZgQ8YewdHR1QCxcudA8//PAomq3esIZRx0E5IWojisSiohToBXb4pNS+LABauHAh1Ny5c90LL7xQN35CwqUrTjj8RBz5lekwysIoIGfzImJDhHFTcT0yWMQzSmKECZTu5iKfbiTPMH7IcGQ8ptCIlO8QaQtdyvDexi6oPT1ArAFDxUA9N7LLhTiaM2cO1KRJkxxbTvXkjriAimCdweyp12D+nFXo689hm3pRKmhhN8k5iRP6ZlJlMi2npHIGvycGYb6iEdIgyxkhFYsszZGllWs6R9JawL6n1mP7ottR6B1AlihYycfUDfVpu3bS2RpTra2trqenpyGgoJYVWvDdb92IOdOWom/AIWvuQ16hZq8IMgFDFnMxE6qFIUVLLiIQWofADbLUUzjVRSY5iveQMS2a25tR/vNG7Fh8B6L+AZg4gsup7RsHUTBGa2srFYWWO+lWI/YItIK2KS4+bRlmTLkWn5h9sEWLPPZ5xidRi0ys5S1F6/nEy8H7H1pI1AOpPslQKlJR0Jq0MFBKMrSML6K05mls++lykXom8u7X6CCgQF4CKAAZCVCkEhhHGk2wYGYHTpv8Q/TlPTIIulVWNOJmBFMqDHirpFQMBuWEg6fFCIif3iVdrARsnmYwKRM0k7NDKclRbG9C34N/wZs3d0AzbmXW60OqgiGwtrY2t2/fvhFcLtQznAUtmiu243HF7JU4+ehLsK/cA1tQ4kZ5oYxcBqsrwpQWokV8LEk8iXDN5TrJwsRe8xk5x08I+L5ihuLhRfTevwZv336/FJQjWYjGaGtrg5o8ebJ75513RgXEGki5CBoRrC6hYA/DlbPvxylHLUC/KsMkSmaZsz9AyxAEiULiyGGgWHE9GXQu7leqdUeJM19+5CmvW3xSLOHIQ9vw1g2/xs7fr4WSonJ/MzIADDE0adIkqDlz5jgKu1EbIZp1pENMiawccmfQEh2NqRNmAnEi5TnpWKiZnET6jowv8kjr1pOCKG4Wdkkl+fM+fo8UH2vksYVyFloUBoAU6H7zLXRvfQtKKzhfvg06Am2fddZZUFdddZV75JFHRgVEsUOJwlI4cpGvQkmlDfrXByXLVh4iikRK8PpcNyixrlixwi1durRhYg0DY550bK5TRDrfkGcp4EylOVKL4DMIC37VSyrmHv6238Ua5coAiIsHqqury9FU9ZZBBs8ye850B3jwMLA2xVfbjkISNQkDCTTW1pzNSuawdB3pbviCTlxLFEQlYYrA9ZNiNVW3v59Fo7IZYsTo/Xg3Bj75uGGcEyjF6aZNm3z5MH36dLAXV698qIISFc23F0TyuDzGd6bejLnH/xiOClLFks05KJbTflCehjk45hqh+JgleYWeqTJ4PuaPJw3EGbI0govLyFSOtvZ2bH/wbmz/4x/qkkIY87Rp0/Dqq6+OocCrIGIbS+ZdZ3AGmHfczfj+ib9EXirQwYUojC5XSolY6J1dIAY5qbnUnCGr0HZeyVlkO+atcoX5pISPWTM5lKJ+pIe0oufvndh81w0wu3dXlOpgUgjutnjxYtxzzz0eELsmIuzqtK+ChUjXbNVYl+G8Y5biom/egXxAiyWk9agz0L0YvOJiUuf48tpoJlife/wPf6+U6gm1H2neXxfdF5cQjyui/52/YdOyJRjo3iXxO1JNRAzsACljjKPZ2C0dqUnCPiPdbO6Ea3HFqXfC9beIRdgW9D02Njp8/WJCTDAe6ILSb2P+8X0GWsQrCa/hgo7zKqGEtDVF7/tbse7u61Da+361STKUOWubJGwNS5OkXC47BhRXGrjGWS8fBcudPuFKXHnqKqS94+BUPyyVuFjEg2F+oesRFP82lQCveKSwou8E+WYkS3hRCAmQFdgZyhCNK6Jn9+t46oGfoP+jf0LrIqwl0/kFsNojAHrsscekBceqW1wuNOloMiKtBRXKh+lHXIprZj2CQk/Rh4zPrzCV/q+3kmc6Xvc5a/+ntxxJwWs61lAEJHEjjZUBqJYcH+7ZhicfWox9H+1AxPaVNVB2ePkQxljbaJRSorYVTNpjW7WW7bSOZIZOnXgRZnz9MmT9vTAJ81CCyOWepn1noDp5Qs/kPGnxkqZJzZ7I2cISJuQ1KQytxJglON2Pv27+E3bv3ipgLGUO72MzYkgbK3jN+vXrpX0d2tnDmvVsgK9ataracBRpzqAPD/wMSVMQj+H74hVsPJJVHbsLnJ/9CTa4WsNmvdxfs5zCLio3UexfOeM4kkpjnQnPrws4MPvRt0Pbp3YJJZyuo5KrHRyvD6Vol4mjLjBiDLa1HCWWJOu8WjqMeTmFoILZuEhMUFxXHVW0HkzRNsqzwli44MVuL5NpwwWv8KywzPfcc8/hggsu+FIuSa5btw7z5s0bfUlyKKgnnnhCqPz/etE4gOLSBPMTLUWO7+7u/kJWwkPM0M24V4GWCXsVxrysP3TjBYUr9ypw40XYFPG/XBWvt/Fi9erVEjMMibCVZsyAamOzdmvMTTfdJGuaPMImpYMNbOjWGFLz8uXLP9vWmKFkU8skXIfl5iWyTDgO1ual2u02VAC33nrrwd+8FAY9dHsZlwHZHB+6vax2x1S93Vm1PbSQKmonkKtxXDwgGfEILnZQt5fVvnDoBkBaiuKQEuTTbADkfiJuADz33HMHbQAMG5fGsqWsdnyjbi+rl+vCtrLg77wnbNGkxbhFk62xRls0J0yYIFs0Tz75ZKlh+FksFuVVtGrYBVYv6EfL4/8FuuuicL1JnOIAAAAASUVORK5CYII="
+                      />
+                    </defs>
+                  </svg>
+                </div>
+                <div>
+                  <span className="font-bold text-xs">SOL</span>
+                  <span className="ml-1 font-bold text-xs text-red-500">
+                    -0.28%
+                  </span>
+                </div>
+              </div>
+              <p className="font-bold text-base">$109.34</p>
+              <div>
+                <svg
+                  width="128"
+                  height="39"
+                  viewBox="0 0 128 39"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clipPath="url(#clip0_57_1615)">
+                    <g clipPath="url(#clip1_57_1615)">
+                      <g clipPath="url(#clip2_57_1615)">
+                        <mask
+                          id="mask0_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask0_57_1615)">
+                          <path
+                            d="M19.9934 10.896L20.5157 10.9944"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask1_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_57_1615)">
+                          <path
+                            d="M20.5156 10.9941L21.0379 11.577"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask2_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask2_57_1615)">
+                          <path
+                            d="M21.038 11.577L21.5678 8.54932"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask3_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask3_57_1615)">
+                          <path
+                            d="M21.5677 8.54932L22.09 12.1447"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask4_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask4_57_1615)">
+                          <path
+                            d="M22.0901 12.1448L22.6124 5.27954"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask5_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask5_57_1615)">
+                          <path
+                            d="M22.6123 5.27954L23.1422 9.14742"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask6_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask6_57_1615)">
+                          <path
+                            d="M23.1422 9.14722L23.6645 10.8049"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask7_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask7_57_1615)">
+                          <path
+                            d="M23.6646 10.8052L24.1868 10.9641"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask8_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask8_57_1615)">
+                          <path
+                            d="M24.1868 10.9641L24.7166 18.3214"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask9_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask9_57_1615)">
+                          <path
+                            d="M24.7166 18.3213L25.2388 19.1085"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask10_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask10_57_1615)">
+                          <path
+                            d="M25.2389 19.1084L25.7612 23.7029"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask11_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask11_57_1615)">
+                          <path
+                            d="M25.7612 23.7029L26.2835 19.1008"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask12_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask12_57_1615)">
+                          <path
+                            d="M26.2834 19.1011L26.8133 14.4915"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask13_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask13_57_1615)">
+                          <path
+                            d="M26.8132 14.4915L27.3355 17.2845"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask14_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask14_57_1615)">
+                          <path
+                            d="M27.3356 17.2842L27.8578 14.6274"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask15_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask15_57_1615)">
+                          <path
+                            d="M27.8578 14.6274L28.3876 16.7241"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask16_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask16_57_1615)">
+                          <path
+                            d="M28.3877 16.7244L28.91 20.4333"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask17_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask17_57_1615)">
+                          <path
+                            d="M28.9099 20.4331L29.4322 20.7662"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask18_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask18_57_1615)">
+                          <path
+                            d="M29.4323 20.7659L29.9621 18.0562"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask19_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask19_57_1615)">
+                          <path
+                            d="M29.9622 18.0562L30.4844 24.876"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask20_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask20_57_1615)">
+                          <path
+                            d="M30.4844 24.876L31.0067 27.8583"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask21_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask21_57_1615)">
+                          <path
+                            d="M31.0066 27.8586L31.5364 25.7468"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask22_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask22_57_1615)">
+                          <path
+                            d="M31.5365 25.7469L32.0588 25.4441"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask23_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask23_57_1615)">
+                          <path
+                            d="M32.0587 25.444L32.581 24.5281"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask24_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask24_57_1615)">
+                          <path
+                            d="M32.5811 24.5281L33.1109 24.301"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask25_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask25_57_1615)">
+                          <path
+                            d="M33.111 24.301L33.6332 24.1799"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask26_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask26_57_1615)">
+                          <path
+                            d="M33.6332 24.1799L34.1555 24.9444"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask27_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask27_57_1615)">
+                          <path
+                            d="M34.1555 24.9443L34.6778 25.459"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask28_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask28_57_1615)">
+                          <path
+                            d="M34.6777 25.4589L35.2076 24.2402"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask29_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask29_57_1615)">
+                          <path
+                            d="M35.2075 24.2402L35.7298 24.7474"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask30_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask30_57_1615)">
+                          <path
+                            d="M35.7299 24.7476L36.2521 30.924"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask31_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask31_57_1615)">
+                          <path
+                            d="M36.2522 30.9243L36.782 32.7863"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask32_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask32_57_1615)">
+                          <path
+                            d="M36.782 32.7861L37.3043 38.5387"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask33_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask33_57_1615)">
+                          <path
+                            d="M37.3042 38.5387L37.8265 35.4656"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask34_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask34_57_1615)">
+                          <path
+                            d="M37.8265 35.4656L38.3564 36.9946"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask35_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask35_57_1615)">
+                          <path
+                            d="M38.3563 36.9946L38.8786 35.2764"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask36_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask36_57_1615)">
+                          <path
+                            d="M38.8787 35.2764L39.4009 35.67"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask37_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask37_57_1615)">
+                          <path
+                            d="M39.4009 35.6699L39.9307 32.0442"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask38_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask38_57_1615)">
+                          <path
+                            d="M39.9308 32.0442L40.4531 35.4503"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask39_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask39_57_1615)">
+                          <path
+                            d="M40.453 35.4504L40.9753 33.4673"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask40_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask40_57_1615)">
+                          <path
+                            d="M40.9752 33.4673L41.5051 26.5945"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask41_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask41_57_1615)">
+                          <path
+                            d="M41.5051 26.5945L42.0274 30.9317"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask42_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask42_57_1615)">
+                          <path
+                            d="M42.0275 30.9316L42.5497 34.9055"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask43_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask43_57_1615)">
+                          <path
+                            d="M42.5497 34.9056L43.072 27.9268"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask44_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask44_57_1615)">
+                          <path
+                            d="M43.072 27.927L43.6019 26.1406"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask45_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask45_57_1615)">
+                          <path
+                            d="M43.6018 26.1403L44.1241 24.4524"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask46_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask46_57_1615)">
+                          <path
+                            d="M44.1241 24.4524L44.6464 24.3994"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask47_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask47_57_1615)">
+                          <path
+                            d="M44.6464 24.3992L45.1762 21.9165"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask48_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask48_57_1615)">
+                          <path
+                            d="M45.1763 21.9168L45.6985 19.0405"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask49_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask49_57_1615)">
+                          <path
+                            d="M45.6985 19.0405L46.2208 24.2255"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask50_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask50_57_1615)">
+                          <path
+                            d="M46.2208 24.2254L46.7507 17.4812"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask51_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask51_57_1615)">
+                          <path
+                            d="M46.7506 17.481L47.2729 17.1631"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask52_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask52_57_1615)">
+                          <path
+                            d="M47.2729 17.1631L47.7952 18.0638"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask53_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask53_57_1615)">
+                          <path
+                            d="M47.7952 18.0637L48.325 20.0014"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask54_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask54_57_1615)">
+                          <path
+                            d="M48.3251 20.0015L48.8474 20.5767"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask55_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask55_57_1615)">
+                          <path
+                            d="M48.8473 20.5769L49.3696 18.5105"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask56_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask56_57_1615)">
+                          <path
+                            d="M49.3696 18.5105L49.8995 16.8149"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask57_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask57_57_1615)">
+                          <path
+                            d="M49.8994 16.8149L50.4217 22.5373"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask58_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask58_57_1615)">
+                          <path
+                            d="M50.4216 22.5374L50.9439 24.74"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask59_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask59_57_1615)">
+                          <path
+                            d="M50.944 24.7402L51.4662 28.0253"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask60_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask60_57_1615)">
+                          <path
+                            d="M51.4663 28.0252L51.9962 23.4382"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask61_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask61_57_1615)">
+                          <path
+                            d="M51.9962 23.4381L52.5185 22.3784"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask62_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask62_57_1615)">
+                          <path
+                            d="M52.5183 22.3784L53.0406 25.5196"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask63_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask63_57_1615)">
+                          <path
+                            d="M53.0406 25.5195L53.5705 26.4278"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask64_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask64_57_1615)">
+                          <path
+                            d="M53.5706 26.4277L54.0928 24.384"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask65_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask65_57_1615)">
+                          <path
+                            d="M54.0928 24.384L54.615 22.3328"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask66_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask66_57_1615)">
+                          <path
+                            d="M54.615 22.3328L55.1448 22.5977"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask67_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask67_57_1615)">
+                          <path
+                            d="M55.1449 22.598L55.6672 21.8259"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask68_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask68_57_1615)">
+                          <path
+                            d="M55.6672 21.8259L56.1895 24.9066"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask69_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask69_57_1615)">
+                          <path
+                            d="M56.1895 24.9065L56.7193 27.8206"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask70_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask70_57_1615)">
+                          <path
+                            d="M56.7192 27.8207L57.2415 26.8821"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask71_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask71_57_1615)">
+                          <path
+                            d="M57.2416 26.8823L57.7639 25.3381"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask72_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask72_57_1615)">
+                          <path
+                            d="M57.7638 25.3381L58.2936 25.3987"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask73_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask73_57_1615)">
+                          <path
+                            d="M58.2937 25.3984L58.816 27.9947"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask74_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask74_57_1615)">
+                          <path
+                            d="M58.8159 27.9946L59.3382 31.3781"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask75_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask75_57_1615)">
+                          <path
+                            d="M59.3383 31.3779L59.8605 31.3552"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask76_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask76_57_1615)">
+                          <path
+                            d="M59.8605 31.3553L60.3903 30.5151"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask77_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask77_57_1615)">
+                          <path
+                            d="M60.3904 30.5151L60.9127 30.553"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask78_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask78_57_1615)">
+                          <path
+                            d="M60.9127 30.5532L61.435 28.676"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask79_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask79_57_1615)">
+                          <path
+                            d="M61.4349 28.676L61.9648 29.3421"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask80_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask80_57_1615)">
+                          <path
+                            d="M61.9647 29.3421L62.487 27.0032"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask81_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask81_57_1615)">
+                          <path
+                            d="M62.4871 27.0032L63.0093 26.9199"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask82_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask82_57_1615)">
+                          <path
+                            d="M63.0094 26.9199L63.5392 28.2824"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask83_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask83_57_1615)">
+                          <path
+                            d="M63.5392 28.2823L64.0615 27.6011"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask84_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask84_57_1615)">
+                          <path
+                            d="M64.0615 27.6011L64.5838 28.691"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask85_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask85_57_1615)">
+                          <path
+                            d="M64.5837 28.6911L65.1136 27.3362"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask86_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask86_57_1615)">
+                          <path
+                            d="M65.1136 27.3362L65.6359 27.8055"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask87_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask87_57_1615)">
+                          <path
+                            d="M65.6359 27.8057L66.1581 29.9175"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask88_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask88_57_1615)">
+                          <path
+                            d="M66.1582 29.9172L66.688 30.871"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask89_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask89_57_1615)">
+                          <path
+                            d="M66.688 30.8711L67.2103 31.3404"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask90_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask90_57_1615)">
+                          <path
+                            d="M67.2102 31.3403L67.7325 29.8037"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask91_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask91_57_1615)">
+                          <path
+                            d="M67.7325 29.8037L68.2624 32.1729"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask92_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask92_57_1615)">
+                          <path
+                            d="M68.2623 32.1729L68.7846 34.0197"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask93_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask93_57_1615)">
+                          <path
+                            d="M68.7847 34.0198L69.3069 33.4673"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask94_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask94_57_1615)">
+                          <path
+                            d="M69.3069 33.4673L69.8292 30.9619"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask95_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask95_57_1615)">
+                          <path
+                            d="M69.8292 30.9619L70.3591 31.0755"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask96_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask96_57_1615)">
+                          <path
+                            d="M70.3591 31.0753L70.8814 29.9551"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask97_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask97_57_1615)">
+                          <path
+                            d="M70.8813 29.9552L71.4036 27.0107"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask98_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask98_57_1615)">
+                          <path
+                            d="M71.4037 27.0107L71.9335 27.147"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask99_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask99_57_1615)">
+                          <path
+                            d="M71.9335 27.1469L72.4557 25.5195"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask100_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask100_57_1615)">
+                          <path
+                            d="M72.4557 25.5195L72.978 26.4203"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask101_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask101_57_1615)">
+                          <path
+                            d="M72.978 26.4204L73.5079 26.4355"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask102_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask102_57_1615)">
+                          <path
+                            d="M73.5079 26.4353L74.0302 27.2074"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask103_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask103_57_1615)">
+                          <path
+                            d="M74.0302 27.2075L74.5524 28.0553"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask104_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask104_57_1615)">
+                          <path
+                            d="M74.5524 28.0554L75.0822 28.4263"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask105_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask105_57_1615)">
+                          <path
+                            d="M75.0823 28.4263L75.6046 29.9023"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask106_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask106_57_1615)">
+                          <path
+                            d="M75.6046 29.9023L76.1269 28.0706"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask107_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask107_57_1615)">
+                          <path
+                            d="M76.1268 28.0705L76.6567 26.2388"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask108_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask108_57_1615)">
+                          <path
+                            d="M76.6566 26.2388L77.1789 26.8443"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask109_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask109_57_1615)">
+                          <path
+                            d="M77.179 26.8442L77.7012 27.2454"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask110_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask110_57_1615)">
+                          <path
+                            d="M77.7012 27.2453L78.2235 25.4211"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask111_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask111_57_1615)">
+                          <path
+                            d="M78.2235 25.4211L78.7534 26.2613"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask112_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask112_57_1615)">
+                          <path
+                            d="M78.7533 26.2615L79.2756 30.8106"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask113_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask113_57_1615)">
+                          <path
+                            d="M79.2756 30.8105L79.7979 32.12"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask114_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask114_57_1615)">
+                          <path
+                            d="M79.798 32.12L80.3278 30.6365"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask115_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask115_57_1615)">
+                          <path
+                            d="M80.3276 30.6365L80.8499 26.269"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask116_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask116_57_1615)">
+                          <path
+                            d="M80.85 26.269L81.3723 27.0638"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask117_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask117_57_1615)">
+                          <path
+                            d="M81.3723 27.0637L81.9022 29.0393"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask118_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask118_57_1615)">
+                          <path
+                            d="M81.9022 29.0393L82.4245 30.0612"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask119_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask119_57_1615)">
+                          <path
+                            d="M82.4244 30.061L82.9467 31.0677"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask120_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask120_57_1615)">
+                          <path
+                            d="M82.9467 31.068L83.4765 30.031"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask121_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask121_57_1615)">
+                          <path
+                            d="M83.4766 30.031L83.9988 29.645"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask122_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask122_57_1615)">
+                          <path
+                            d="M83.9989 29.645L84.5212 29.9856"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask123_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask123_57_1615)">
+                          <path
+                            d="M84.521 29.9855L85.0508 26.761"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask124_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask124_57_1615)">
+                          <path
+                            d="M85.0509 26.761L85.5732 26.2917"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask125_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask125_57_1615)">
+                          <path
+                            d="M85.5732 26.2917L86.0955 26.7005"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask126_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask126_57_1615)">
+                          <path
+                            d="M86.0956 26.7004L86.6179 24.5281"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask127_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask127_57_1615)">
+                          <path
+                            d="M86.6178 24.528L87.1476 23.491"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask128_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask128_57_1615)">
+                          <path
+                            d="M87.1476 23.491L87.6699 25.8223"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask129_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask129_57_1615)">
+                          <path
+                            d="M87.6699 25.8224L88.1922 22.5525"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask130_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask130_57_1615)">
+                          <path
+                            d="M88.1921 22.5523L88.722 21.75"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask131_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask131_57_1615)">
+                          <path
+                            d="M88.722 21.7503L89.2443 20.9707"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask132_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask132_57_1615)">
+                          <path
+                            d="M89.2443 20.9704L89.7665 18.957"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask133_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask133_57_1615)">
+                          <path
+                            d="M89.7666 18.957L90.2965 17.0571"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask134_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask134_57_1615)">
+                          <path
+                            d="M90.2964 17.0571L90.8187 18.5558"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask135_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask135_57_1615)">
+                          <path
+                            d="M90.8187 18.5557L91.341 18.813"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask136_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask136_57_1615)">
+                          <path
+                            d="M91.3409 18.8132L91.8708 18.6997"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask137_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask137_57_1615)">
+                          <path
+                            d="M91.8708 18.6995L92.3931 15.8459"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask138_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask138_57_1615)">
+                          <path
+                            d="M92.3931 15.846L92.9153 15.4675"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask139_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask139_57_1615)">
+                          <path
+                            d="M92.9154 15.4678L93.4452 12.6975"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask140_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask140_57_1615)">
+                          <path
+                            d="M93.4452 12.6972L93.9675 11.085"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask141_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask141_57_1615)">
+                          <path
+                            d="M93.9675 11.085L94.4898 11.9251"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask142_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask142_57_1615)">
+                          <path
+                            d="M94.4897 11.9256L95.012 9.50342"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask143_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask143_57_1615)">
+                          <path
+                            d="M95.0121 9.50342L95.5419 9.61696"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask144_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask144_57_1615)">
+                          <path
+                            d="M95.5419 9.61651L96.0641 9.09424"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask145_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask145_57_1615)">
+                          <path
+                            d="M96.0642 9.09437L96.5865 5.84717"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask146_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask146_57_1615)">
+                          <path
+                            d="M96.5864 5.84718L97.1163 5.73364"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask147_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask147_57_1615)">
+                          <path
+                            d="M97.1163 5.73356L97.6386 2.2063"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask148_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask148_57_1615)">
+                          <path
+                            d="M97.6385 2.2063L98.1608 3.32655"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask149_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask149_57_1615)">
+                          <path
+                            d="M98.1609 3.32642L98.6907 6.92937"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask150_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask150_57_1615)">
+                          <path
+                            d="M98.6907 6.92969L99.213 8.09535"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask151_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask151_57_1615)">
+                          <path
+                            d="M99.213 8.09525L99.7353 7.80005"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask152_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask152_57_1615)">
+                          <path
+                            d="M99.7352 7.80005L100.265 13.7268"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask153_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask153_57_1615)">
+                          <path
+                            d="M100.265 13.7268L100.787 14.5064"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask154_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask154_57_1615)">
+                          <path
+                            d="M100.787 14.5064L101.31 14.408"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask155_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask155_57_1615)">
+                          <path
+                            d="M101.31 14.408L101.84 19.275"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask156_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask156_57_1615)">
+                          <path
+                            d="M101.839 19.275L102.362 18.8057"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask157_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask157_57_1615)">
+                          <path
+                            d="M102.362 18.8057L102.884 19.8654"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask158_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask158_57_1615)">
+                          <path
+                            d="M102.884 19.8652L103.406 20.1302"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask159_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask159_57_1615)">
+                          <path
+                            d="M103.406 20.1303L103.936 19.0024"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask160_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask160_57_1615)">
+                          <path
+                            d="M103.936 19.0025L104.459 18.8208"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask161_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask161_57_1615)">
+                          <path
+                            d="M104.458 18.8208L104.981 21.2732"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask162_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask162_57_1615)">
+                          <path
+                            d="M104.981 21.2733L105.511 20.2061"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask163_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask163_57_1615)">
+                          <path
+                            d="M105.511 20.206L106.033 18.2759"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask164_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask164_57_1615)">
+                          <path
+                            d="M106.033 18.2759L106.555 19.3053"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask165_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask165_57_1615)">
+                          <path
+                            d="M106.555 19.3054L107.085 19.0632"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask166_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask166_57_1615)">
+                          <path
+                            d="M107.085 19.0632L107.607 19.2676"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask167_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask167_57_1615)">
+                          <path
+                            d="M107.607 19.2673L108.13 17.7913"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_57_1615">
+                      <rect
+                        width="126.154"
+                        height="37.8461"
+                        fill="white"
+                        transform="translate(0.984619 0.692627)"
+                      />
+                    </clipPath>
+                    <clipPath id="clip1_57_1615">
+                      <rect
+                        width="126.154"
+                        height="37.8461"
+                        fill="white"
+                        transform="translate(0.984619 0.692627)"
+                      />
+                    </clipPath>
+                    <clipPath id="clip2_57_1615">
+                      <rect
+                        width="88.56"
+                        height="37.8461"
+                        fill="white"
+                        transform="translate(19.7815 0.692627)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li className="border rounded-lg px-2 py-2   min-w-72 md:max-w-40  border-gray-200 shadow-sm border-solid">
+            <div className="flex flex-col">
+              <div className="flex items-center gap-2 mb-1">
+                <div>
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect
+                      x="0.984619"
+                      y="0.723389"
+                      width="16.4"
+                      height="16.4"
+                      rx="8.2"
+                      fill="url(#pattern0)"
+                    />
+                    <defs>
+                      <pattern
+                        id="pattern0"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlinkHref="#image0_57_1607"
+                          transform="scale(0.0192308)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_57_1607"
+                        width="52"
+                        height="52"
+                        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAAXNSR0IArs4c6QAADlZJREFUaEPVWmuMVdUV/vY+59xz5yVWnKZaUKhRBK1axcpDJD4i1j4SH6DGyK+2aoOYQo3G1iZVowXDGBWsTVprNC0KmthGg4/wUGScRpsIFtHERlptrKLAyLzuPWfv3Xxr3325M3PvzKBU7SHDnTnn3HP2t9da3/rW2ls55xwO8OBX8jxHFEXQWsu3+/v7sXXrVrz88st47bXXsHPnTrz77rvYtWsX+vr65J7m5ma0t7dj4sSJmDx5Mk455RScccYZ8tnU1CT3hGcnSXKAo/K3qwMFZIwREEopecBLL72Exx9/HM8//zzefvttlMvlYQMJ99abOw782GOPxXnnnYf58+fjzDPPrH6f7+KkHcgxZkDWWvAnjmN5PkGsWLECXV1dg97H62HgvL/eEaxKoBx0LVBabMmSJViwYIF8ldd5X/jOaODGBKh2pjZs2IBbbrkFnZ2d1WdzFjmoRgBGG0SwON8TjlmzZuG2227DOeecUwU2FmuNCoixwllnHNx4441YuXKlvICuEvx9tAEfyHW+ixbJsky+dt1112HZsmUSY2EsIz2vLqDgApwxvmDHjh247LLL8Prrr1fjh9b4FHwyJmzBxYLVTzrpJDz66KOYOnWqAA1uH2Kz9qENAfGLhUIBzz77LC6//HLs3btXHsRZ+jyP8M5x48ZhzZo1OP/886ugxgwomJaBz+DkTH0RYMLEhXcTwNq1a3HJJZc0dL9hFgpgnnnmGVx44YUChsFYG7Cfp4XCu8IYCIpjo6XqxdQgQIHN3njjDckHe/bs+VKAGQrq0EMPFZZlTA3NVVVAtATRk81mzpyJbdu2DXIzpjejNJT8s7Bw0ErDaf6tAUvB4QDJt158+NTL/52c8X+Hg+dqk+Z+wWKhEDlAK4VcOcBZOONzWnA/EgVVCdVHGLu8LSiFgJQ0SWoeGjNK+YQauxx8oWXuMZ4gKH44HC+Chg58+LmRtBavESbBEwI/+RarFAQb9sfzokWLcN999w2ykgAKYDZu3CiJjJYaSsk8FzsNQ8mjFazJ0PKN43DCxVfANkXICgpGG5jYwiYWKiJoB6ctnHKwiknTygiVdnAKcMrINY6U/xQcTOSgYcVCmbNobmnF7se7sOuxLVCRrlqKyZipg4n+7LPProJS1oqvCAjGzZYtW+rGDXEoFwORhjVltB1xHM75xV1Qxx+L3ihDqQkwBQeTGpSKJaCgYRILExkZpInKFSAEYKE0kMUlIKIdCMe7lAE9wAi4PsQ4BgX8a8FyfLC2axCg4EGzZ88WPRncTmVZ5niRdEiKpgIIWXqQyyuvrJ3J0DR+Is69aRWiScdjX7YLNo1hEwNbMDAFi7zA3x2ygkXG3xMCysUS0AZWWdAEVpvKOet/ZygqgsnQXwSOyFL85+oH8OHqTiiqesZSjb8GUBz7pZdeKuOuWojaiUKzUb6JdYTcGqQtR+OCJXejMOVE9JV64YqAiQGT5MgFjIVJc7FWlhoPKKU1BgSEd0ELaAICHN1PWwGitYWyBv2pw/goxceLfosPf7cBOo5h8nxYKISxzpgxQwhCrMQYopvVyvZheYb+5hyamr+G7/3oHrRM+Ta6TQ9UCuSFHHkC2DhHHjsBwhjKU1rIiLVyAkpLcLGDjWgNuhzjyEARoHbIIlrGYqBgcFihiD0/exDvr3wanEjjHJyrr9xDvG/evFkwCKDrr78e9957b/2cUwFTbJ6IH1zegfYpZ2Kv/QRZ0ceITTLkBQeXGPk7TxzKtFKhAjYlKAtTzGBjhzwxyOO8ahlFwogcMp3DxRrjY429v3oI7931JApRhBLJwhJQfW4MCZfsTAyqr6/PnX766di+fbvEyNASIIpiGJNjxqyrcda8n+OjgY8Rp1ZeXkpzlAtKBupiC5c42Jhul/m4SSwc3TBxyIo5TEKQFjY2IL9oVZZ4yiKHSDHHRPjgN09g552rkeoIJe2gjc9hjQCFMZ9wwgl45ZVXoDo7O93cuXNFRtT7kmLydBbF9HC0HtJeodvIJ1N6oib1eicVCpbTdKNKYiIlR5xlI+doDaFuSTServn9iEE/UEL3P/4tCdtGClHGjAfkkptH7hSQzF588UWojo4OxwqxkV6rLZ/5XIUYVlKdT6TBs4MKGPparxMGH7X38hkhicozpVjksx0si8YAZgQ8YewdHR1QCxcudA8//PAomq3esIZRx0E5IWojisSiohToBXb4pNS+LABauHAh1Ny5c90LL7xQN35CwqUrTjj8RBz5lekwysIoIGfzImJDhHFTcT0yWMQzSmKECZTu5iKfbiTPMH7IcGQ8ptCIlO8QaQtdyvDexi6oPT1ArAFDxUA9N7LLhTiaM2cO1KRJkxxbTvXkjriAimCdweyp12D+nFXo689hm3pRKmhhN8k5iRP6ZlJlMi2npHIGvycGYb6iEdIgyxkhFYsszZGllWs6R9JawL6n1mP7ottR6B1AlihYycfUDfVpu3bS2RpTra2trqenpyGgoJYVWvDdb92IOdOWom/AIWvuQ16hZq8IMgFDFnMxE6qFIUVLLiIQWofADbLUUzjVRSY5iveQMS2a25tR/vNG7Fh8B6L+AZg4gsup7RsHUTBGa2srFYWWO+lWI/YItIK2KS4+bRlmTLkWn5h9sEWLPPZ5xidRi0ys5S1F6/nEy8H7H1pI1AOpPslQKlJR0Jq0MFBKMrSML6K05mls++lykXom8u7X6CCgQF4CKAAZCVCkEhhHGk2wYGYHTpv8Q/TlPTIIulVWNOJmBFMqDHirpFQMBuWEg6fFCIif3iVdrARsnmYwKRM0k7NDKclRbG9C34N/wZs3d0AzbmXW60OqgiGwtrY2t2/fvhFcLtQznAUtmiu243HF7JU4+ehLsK/cA1tQ4kZ5oYxcBqsrwpQWokV8LEk8iXDN5TrJwsRe8xk5x08I+L5ihuLhRfTevwZv336/FJQjWYjGaGtrg5o8ebJ75513RgXEGki5CBoRrC6hYA/DlbPvxylHLUC/KsMkSmaZsz9AyxAEiULiyGGgWHE9GXQu7leqdUeJM19+5CmvW3xSLOHIQ9vw1g2/xs7fr4WSonJ/MzIADDE0adIkqDlz5jgKu1EbIZp1pENMiawccmfQEh2NqRNmAnEi5TnpWKiZnET6jowv8kjr1pOCKG4Wdkkl+fM+fo8UH2vksYVyFloUBoAU6H7zLXRvfQtKKzhfvg06Am2fddZZUFdddZV75JFHRgVEsUOJwlI4cpGvQkmlDfrXByXLVh4iikRK8PpcNyixrlixwi1durRhYg0DY550bK5TRDrfkGcp4EylOVKL4DMIC37VSyrmHv6238Ua5coAiIsHqqury9FU9ZZBBs8ye850B3jwMLA2xVfbjkISNQkDCTTW1pzNSuawdB3pbviCTlxLFEQlYYrA9ZNiNVW3v59Fo7IZYsTo/Xg3Bj75uGGcEyjF6aZNm3z5MH36dLAXV698qIISFc23F0TyuDzGd6bejLnH/xiOClLFks05KJbTflCehjk45hqh+JgleYWeqTJ4PuaPJw3EGbI0govLyFSOtvZ2bH/wbmz/4x/qkkIY87Rp0/Dqq6+OocCrIGIbS+ZdZ3AGmHfczfj+ib9EXirQwYUojC5XSolY6J1dIAY5qbnUnCGr0HZeyVlkO+atcoX5pISPWTM5lKJ+pIe0oufvndh81w0wu3dXlOpgUgjutnjxYtxzzz0eELsmIuzqtK+ChUjXbNVYl+G8Y5biom/egXxAiyWk9agz0L0YvOJiUuf48tpoJlife/wPf6+U6gm1H2neXxfdF5cQjyui/52/YdOyJRjo3iXxO1JNRAzsACljjKPZ2C0dqUnCPiPdbO6Ea3HFqXfC9beIRdgW9D02Njp8/WJCTDAe6ILSb2P+8X0GWsQrCa/hgo7zKqGEtDVF7/tbse7u61Da+361STKUOWubJGwNS5OkXC47BhRXGrjGWS8fBcudPuFKXHnqKqS94+BUPyyVuFjEg2F+oesRFP82lQCveKSwou8E+WYkS3hRCAmQFdgZyhCNK6Jn9+t46oGfoP+jf0LrIqwl0/kFsNojAHrsscekBceqW1wuNOloMiKtBRXKh+lHXIprZj2CQk/Rh4zPrzCV/q+3kmc6Xvc5a/+ntxxJwWs61lAEJHEjjZUBqJYcH+7ZhicfWox9H+1AxPaVNVB2ePkQxljbaJRSorYVTNpjW7WW7bSOZIZOnXgRZnz9MmT9vTAJ81CCyOWepn1noDp5Qs/kPGnxkqZJzZ7I2cISJuQ1KQytxJglON2Pv27+E3bv3ipgLGUO72MzYkgbK3jN+vXrpX0d2tnDmvVsgK9ataracBRpzqAPD/wMSVMQj+H74hVsPJJVHbsLnJ/9CTa4WsNmvdxfs5zCLio3UexfOeM4kkpjnQnPrws4MPvRt0Pbp3YJJZyuo5KrHRyvD6Vol4mjLjBiDLa1HCWWJOu8WjqMeTmFoILZuEhMUFxXHVW0HkzRNsqzwli44MVuL5NpwwWv8KywzPfcc8/hggsu+FIuSa5btw7z5s0bfUlyKKgnnnhCqPz/etE4gOLSBPMTLUWO7+7u/kJWwkPM0M24V4GWCXsVxrysP3TjBYUr9ypw40XYFPG/XBWvt/Fi9erVEjMMibCVZsyAamOzdmvMTTfdJGuaPMImpYMNbOjWGFLz8uXLP9vWmKFkU8skXIfl5iWyTDgO1ual2u02VAC33nrrwd+8FAY9dHsZlwHZHB+6vax2x1S93Vm1PbSQKmonkKtxXDwgGfEILnZQt5fVvnDoBkBaiuKQEuTTbADkfiJuADz33HMHbQAMG5fGsqWsdnyjbi+rl+vCtrLg77wnbNGkxbhFk62xRls0J0yYIFs0Tz75ZKlh+FksFuVVtGrYBVYv6EfL4/8FuuuicL1JnOIAAAAASUVORK5CYII="
+                      />
+                    </defs>
+                  </svg>
+                </div>
+                <div>
+                  <span className="font-bold text-xs">SOL</span>
+                  <span className="ml-1 font-bold text-xs text-red-500">
+                    -0.28%
+                  </span>
+                </div>
+              </div>
+              <p className="font-bold text-base">$109.34</p>
+              <div>
+                <svg
+                  width="128"
+                  height="39"
+                  viewBox="0 0 128 39"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clipPath="url(#clip0_57_1615)">
+                    <g clipPath="url(#clip1_57_1615)">
+                      <g clipPath="url(#clip2_57_1615)">
+                        <mask
+                          id="mask0_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask0_57_1615)">
+                          <path
+                            d="M19.9934 10.896L20.5157 10.9944"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask1_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_57_1615)">
+                          <path
+                            d="M20.5156 10.9941L21.0379 11.577"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask2_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask2_57_1615)">
+                          <path
+                            d="M21.038 11.577L21.5678 8.54932"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask3_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask3_57_1615)">
+                          <path
+                            d="M21.5677 8.54932L22.09 12.1447"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask4_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask4_57_1615)">
+                          <path
+                            d="M22.0901 12.1448L22.6124 5.27954"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask5_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask5_57_1615)">
+                          <path
+                            d="M22.6123 5.27954L23.1422 9.14742"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask6_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask6_57_1615)">
+                          <path
+                            d="M23.1422 9.14722L23.6645 10.8049"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask7_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask7_57_1615)">
+                          <path
+                            d="M23.6646 10.8052L24.1868 10.9641"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask8_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask8_57_1615)">
+                          <path
+                            d="M24.1868 10.9641L24.7166 18.3214"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask9_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask9_57_1615)">
+                          <path
+                            d="M24.7166 18.3213L25.2388 19.1085"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask10_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask10_57_1615)">
+                          <path
+                            d="M25.2389 19.1084L25.7612 23.7029"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask11_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask11_57_1615)">
+                          <path
+                            d="M25.7612 23.7029L26.2835 19.1008"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask12_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask12_57_1615)">
+                          <path
+                            d="M26.2834 19.1011L26.8133 14.4915"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask13_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask13_57_1615)">
+                          <path
+                            d="M26.8132 14.4915L27.3355 17.2845"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask14_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask14_57_1615)">
+                          <path
+                            d="M27.3356 17.2842L27.8578 14.6274"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask15_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask15_57_1615)">
+                          <path
+                            d="M27.8578 14.6274L28.3876 16.7241"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask16_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask16_57_1615)">
+                          <path
+                            d="M28.3877 16.7244L28.91 20.4333"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask17_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask17_57_1615)">
+                          <path
+                            d="M28.9099 20.4331L29.4322 20.7662"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask18_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask18_57_1615)">
+                          <path
+                            d="M29.4323 20.7659L29.9621 18.0562"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask19_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask19_57_1615)">
+                          <path
+                            d="M29.9622 18.0562L30.4844 24.876"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask20_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask20_57_1615)">
+                          <path
+                            d="M30.4844 24.876L31.0067 27.8583"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask21_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask21_57_1615)">
+                          <path
+                            d="M31.0066 27.8586L31.5364 25.7468"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask22_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask22_57_1615)">
+                          <path
+                            d="M31.5365 25.7469L32.0588 25.4441"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask23_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask23_57_1615)">
+                          <path
+                            d="M32.0587 25.444L32.581 24.5281"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask24_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask24_57_1615)">
+                          <path
+                            d="M32.5811 24.5281L33.1109 24.301"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask25_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask25_57_1615)">
+                          <path
+                            d="M33.111 24.301L33.6332 24.1799"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask26_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask26_57_1615)">
+                          <path
+                            d="M33.6332 24.1799L34.1555 24.9444"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask27_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask27_57_1615)">
+                          <path
+                            d="M34.1555 24.9443L34.6778 25.459"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask28_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask28_57_1615)">
+                          <path
+                            d="M34.6777 25.4589L35.2076 24.2402"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask29_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask29_57_1615)">
+                          <path
+                            d="M35.2075 24.2402L35.7298 24.7474"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask30_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask30_57_1615)">
+                          <path
+                            d="M35.7299 24.7476L36.2521 30.924"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask31_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask31_57_1615)">
+                          <path
+                            d="M36.2522 30.9243L36.782 32.7863"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask32_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask32_57_1615)">
+                          <path
+                            d="M36.782 32.7861L37.3043 38.5387"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask33_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask33_57_1615)">
+                          <path
+                            d="M37.3042 38.5387L37.8265 35.4656"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask34_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask34_57_1615)">
+                          <path
+                            d="M37.8265 35.4656L38.3564 36.9946"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask35_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask35_57_1615)">
+                          <path
+                            d="M38.3563 36.9946L38.8786 35.2764"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask36_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask36_57_1615)">
+                          <path
+                            d="M38.8787 35.2764L39.4009 35.67"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask37_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask37_57_1615)">
+                          <path
+                            d="M39.4009 35.6699L39.9307 32.0442"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask38_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask38_57_1615)">
+                          <path
+                            d="M39.9308 32.0442L40.4531 35.4503"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask39_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask39_57_1615)">
+                          <path
+                            d="M40.453 35.4504L40.9753 33.4673"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask40_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask40_57_1615)">
+                          <path
+                            d="M40.9752 33.4673L41.5051 26.5945"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask41_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask41_57_1615)">
+                          <path
+                            d="M41.5051 26.5945L42.0274 30.9317"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask42_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask42_57_1615)">
+                          <path
+                            d="M42.0275 30.9316L42.5497 34.9055"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask43_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask43_57_1615)">
+                          <path
+                            d="M42.5497 34.9056L43.072 27.9268"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask44_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask44_57_1615)">
+                          <path
+                            d="M43.072 27.927L43.6019 26.1406"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask45_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask45_57_1615)">
+                          <path
+                            d="M43.6018 26.1403L44.1241 24.4524"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask46_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask46_57_1615)">
+                          <path
+                            d="M44.1241 24.4524L44.6464 24.3994"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask47_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask47_57_1615)">
+                          <path
+                            d="M44.6464 24.3992L45.1762 21.9165"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask48_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask48_57_1615)">
+                          <path
+                            d="M45.1763 21.9168L45.6985 19.0405"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask49_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask49_57_1615)">
+                          <path
+                            d="M45.6985 19.0405L46.2208 24.2255"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask50_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask50_57_1615)">
+                          <path
+                            d="M46.2208 24.2254L46.7507 17.4812"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask51_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask51_57_1615)">
+                          <path
+                            d="M46.7506 17.481L47.2729 17.1631"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask52_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask52_57_1615)">
+                          <path
+                            d="M47.2729 17.1631L47.7952 18.0638"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask53_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask53_57_1615)">
+                          <path
+                            d="M47.7952 18.0637L48.325 20.0014"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask54_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask54_57_1615)">
+                          <path
+                            d="M48.3251 20.0015L48.8474 20.5767"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask55_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask55_57_1615)">
+                          <path
+                            d="M48.8473 20.5769L49.3696 18.5105"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask56_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask56_57_1615)">
+                          <path
+                            d="M49.3696 18.5105L49.8995 16.8149"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask57_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask57_57_1615)">
+                          <path
+                            d="M49.8994 16.8149L50.4217 22.5373"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask58_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask58_57_1615)">
+                          <path
+                            d="M50.4216 22.5374L50.9439 24.74"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask59_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask59_57_1615)">
+                          <path
+                            d="M50.944 24.7402L51.4662 28.0253"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask60_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask60_57_1615)">
+                          <path
+                            d="M51.4663 28.0252L51.9962 23.4382"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask61_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask61_57_1615)">
+                          <path
+                            d="M51.9962 23.4381L52.5185 22.3784"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask62_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask62_57_1615)">
+                          <path
+                            d="M52.5183 22.3784L53.0406 25.5196"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask63_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask63_57_1615)">
+                          <path
+                            d="M53.0406 25.5195L53.5705 26.4278"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask64_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask64_57_1615)">
+                          <path
+                            d="M53.5706 26.4277L54.0928 24.384"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask65_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask65_57_1615)">
+                          <path
+                            d="M54.0928 24.384L54.615 22.3328"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask66_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask66_57_1615)">
+                          <path
+                            d="M54.615 22.3328L55.1448 22.5977"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask67_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask67_57_1615)">
+                          <path
+                            d="M55.1449 22.598L55.6672 21.8259"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask68_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask68_57_1615)">
+                          <path
+                            d="M55.6672 21.8259L56.1895 24.9066"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask69_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask69_57_1615)">
+                          <path
+                            d="M56.1895 24.9065L56.7193 27.8206"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask70_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask70_57_1615)">
+                          <path
+                            d="M56.7192 27.8207L57.2415 26.8821"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask71_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask71_57_1615)">
+                          <path
+                            d="M57.2416 26.8823L57.7639 25.3381"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask72_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask72_57_1615)">
+                          <path
+                            d="M57.7638 25.3381L58.2936 25.3987"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask73_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask73_57_1615)">
+                          <path
+                            d="M58.2937 25.3984L58.816 27.9947"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask74_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask74_57_1615)">
+                          <path
+                            d="M58.8159 27.9946L59.3382 31.3781"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask75_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask75_57_1615)">
+                          <path
+                            d="M59.3383 31.3779L59.8605 31.3552"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask76_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask76_57_1615)">
+                          <path
+                            d="M59.8605 31.3553L60.3903 30.5151"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask77_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask77_57_1615)">
+                          <path
+                            d="M60.3904 30.5151L60.9127 30.553"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask78_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask78_57_1615)">
+                          <path
+                            d="M60.9127 30.5532L61.435 28.676"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask79_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask79_57_1615)">
+                          <path
+                            d="M61.4349 28.676L61.9648 29.3421"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask80_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask80_57_1615)">
+                          <path
+                            d="M61.9647 29.3421L62.487 27.0032"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask81_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask81_57_1615)">
+                          <path
+                            d="M62.4871 27.0032L63.0093 26.9199"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask82_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask82_57_1615)">
+                          <path
+                            d="M63.0094 26.9199L63.5392 28.2824"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask83_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask83_57_1615)">
+                          <path
+                            d="M63.5392 28.2823L64.0615 27.6011"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask84_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask84_57_1615)">
+                          <path
+                            d="M64.0615 27.6011L64.5838 28.691"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask85_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask85_57_1615)">
+                          <path
+                            d="M64.5837 28.6911L65.1136 27.3362"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask86_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask86_57_1615)">
+                          <path
+                            d="M65.1136 27.3362L65.6359 27.8055"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask87_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask87_57_1615)">
+                          <path
+                            d="M65.6359 27.8057L66.1581 29.9175"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask88_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask88_57_1615)">
+                          <path
+                            d="M66.1582 29.9172L66.688 30.871"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask89_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask89_57_1615)">
+                          <path
+                            d="M66.688 30.8711L67.2103 31.3404"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask90_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask90_57_1615)">
+                          <path
+                            d="M67.2102 31.3403L67.7325 29.8037"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask91_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask91_57_1615)">
+                          <path
+                            d="M67.7325 29.8037L68.2624 32.1729"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask92_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask92_57_1615)">
+                          <path
+                            d="M68.2623 32.1729L68.7846 34.0197"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask93_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask93_57_1615)">
+                          <path
+                            d="M68.7847 34.0198L69.3069 33.4673"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask94_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask94_57_1615)">
+                          <path
+                            d="M69.3069 33.4673L69.8292 30.9619"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask95_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask95_57_1615)">
+                          <path
+                            d="M69.8292 30.9619L70.3591 31.0755"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask96_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask96_57_1615)">
+                          <path
+                            d="M70.3591 31.0753L70.8814 29.9551"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask97_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask97_57_1615)">
+                          <path
+                            d="M70.8813 29.9552L71.4036 27.0107"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask98_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask98_57_1615)">
+                          <path
+                            d="M71.4037 27.0107L71.9335 27.147"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask99_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask99_57_1615)">
+                          <path
+                            d="M71.9335 27.1469L72.4557 25.5195"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask100_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask100_57_1615)">
+                          <path
+                            d="M72.4557 25.5195L72.978 26.4203"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask101_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask101_57_1615)">
+                          <path
+                            d="M72.978 26.4204L73.5079 26.4355"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask102_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask102_57_1615)">
+                          <path
+                            d="M73.5079 26.4353L74.0302 27.2074"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask103_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask103_57_1615)">
+                          <path
+                            d="M74.0302 27.2075L74.5524 28.0553"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask104_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask104_57_1615)">
+                          <path
+                            d="M74.5524 28.0554L75.0822 28.4263"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask105_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask105_57_1615)">
+                          <path
+                            d="M75.0823 28.4263L75.6046 29.9023"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask106_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask106_57_1615)">
+                          <path
+                            d="M75.6046 29.9023L76.1269 28.0706"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask107_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask107_57_1615)">
+                          <path
+                            d="M76.1268 28.0705L76.6567 26.2388"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask108_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask108_57_1615)">
+                          <path
+                            d="M76.6566 26.2388L77.1789 26.8443"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask109_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask109_57_1615)">
+                          <path
+                            d="M77.179 26.8442L77.7012 27.2454"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask110_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask110_57_1615)">
+                          <path
+                            d="M77.7012 27.2453L78.2235 25.4211"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask111_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask111_57_1615)">
+                          <path
+                            d="M78.2235 25.4211L78.7534 26.2613"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask112_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask112_57_1615)">
+                          <path
+                            d="M78.7533 26.2615L79.2756 30.8106"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask113_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask113_57_1615)">
+                          <path
+                            d="M79.2756 30.8105L79.7979 32.12"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask114_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask114_57_1615)">
+                          <path
+                            d="M79.798 32.12L80.3278 30.6365"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask115_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask115_57_1615)">
+                          <path
+                            d="M80.3276 30.6365L80.8499 26.269"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask116_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask116_57_1615)">
+                          <path
+                            d="M80.85 26.269L81.3723 27.0638"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask117_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask117_57_1615)">
+                          <path
+                            d="M81.3723 27.0637L81.9022 29.0393"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask118_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask118_57_1615)">
+                          <path
+                            d="M81.9022 29.0393L82.4245 30.0612"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask119_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask119_57_1615)">
+                          <path
+                            d="M82.4244 30.061L82.9467 31.0677"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask120_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask120_57_1615)">
+                          <path
+                            d="M82.9467 31.068L83.4765 30.031"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask121_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask121_57_1615)">
+                          <path
+                            d="M83.4766 30.031L83.9988 29.645"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask122_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask122_57_1615)">
+                          <path
+                            d="M83.9989 29.645L84.5212 29.9856"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask123_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask123_57_1615)">
+                          <path
+                            d="M84.521 29.9855L85.0508 26.761"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask124_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask124_57_1615)">
+                          <path
+                            d="M85.0509 26.761L85.5732 26.2917"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask125_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask125_57_1615)">
+                          <path
+                            d="M85.5732 26.2917L86.0955 26.7005"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask126_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask126_57_1615)">
+                          <path
+                            d="M86.0956 26.7004L86.6179 24.5281"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask127_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask127_57_1615)">
+                          <path
+                            d="M86.6178 24.528L87.1476 23.491"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask128_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask128_57_1615)">
+                          <path
+                            d="M87.1476 23.491L87.6699 25.8223"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask129_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask129_57_1615)">
+                          <path
+                            d="M87.6699 25.8224L88.1922 22.5525"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask130_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask130_57_1615)">
+                          <path
+                            d="M88.1921 22.5523L88.722 21.75"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask131_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask131_57_1615)">
+                          <path
+                            d="M88.722 21.7503L89.2443 20.9707"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask132_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask132_57_1615)">
+                          <path
+                            d="M89.2443 20.9704L89.7665 18.957"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask133_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask133_57_1615)">
+                          <path
+                            d="M89.7666 18.957L90.2965 17.0571"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask134_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask134_57_1615)">
+                          <path
+                            d="M90.2964 17.0571L90.8187 18.5558"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask135_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask135_57_1615)">
+                          <path
+                            d="M90.8187 18.5557L91.341 18.813"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask136_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask136_57_1615)">
+                          <path
+                            d="M91.3409 18.8132L91.8708 18.6997"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask137_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask137_57_1615)">
+                          <path
+                            d="M91.8708 18.6995L92.3931 15.8459"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask138_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask138_57_1615)">
+                          <path
+                            d="M92.3931 15.846L92.9153 15.4675"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask139_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask139_57_1615)">
+                          <path
+                            d="M92.9154 15.4678L93.4452 12.6975"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask140_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask140_57_1615)">
+                          <path
+                            d="M93.4452 12.6972L93.9675 11.085"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask141_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask141_57_1615)">
+                          <path
+                            d="M93.9675 11.085L94.4898 11.9251"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask142_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask142_57_1615)">
+                          <path
+                            d="M94.4897 11.9256L95.012 9.50342"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask143_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask143_57_1615)">
+                          <path
+                            d="M95.0121 9.50342L95.5419 9.61696"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask144_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask144_57_1615)">
+                          <path
+                            d="M95.5419 9.61651L96.0641 9.09424"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask145_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask145_57_1615)">
+                          <path
+                            d="M96.0642 9.09437L96.5865 5.84717"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask146_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask146_57_1615)">
+                          <path
+                            d="M96.5864 5.84718L97.1163 5.73364"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask147_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask147_57_1615)">
+                          <path
+                            d="M97.1163 5.73356L97.6386 2.2063"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask148_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask148_57_1615)">
+                          <path
+                            d="M97.6385 2.2063L98.1608 3.32655"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask149_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask149_57_1615)">
+                          <path
+                            d="M98.1609 3.32642L98.6907 6.92937"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask150_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask150_57_1615)">
+                          <path
+                            d="M98.6907 6.92969L99.213 8.09535"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask151_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask151_57_1615)">
+                          <path
+                            d="M99.213 8.09525L99.7353 7.80005"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask152_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask152_57_1615)">
+                          <path
+                            d="M99.7352 7.80005L100.265 13.7268"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask153_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask153_57_1615)">
+                          <path
+                            d="M100.265 13.7268L100.787 14.5064"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask154_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask154_57_1615)">
+                          <path
+                            d="M100.787 14.5064L101.31 14.408"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask155_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask155_57_1615)">
+                          <path
+                            d="M101.31 14.408L101.84 19.275"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask156_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask156_57_1615)">
+                          <path
+                            d="M101.839 19.275L102.362 18.8057"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask157_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask157_57_1615)">
+                          <path
+                            d="M102.362 18.8057L102.884 19.8654"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask158_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask158_57_1615)">
+                          <path
+                            d="M102.884 19.8652L103.406 20.1302"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask159_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask159_57_1615)">
+                          <path
+                            d="M103.406 20.1303L103.936 19.0024"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask160_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask160_57_1615)">
+                          <path
+                            d="M103.936 19.0025L104.459 18.8208"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask161_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask161_57_1615)">
+                          <path
+                            d="M104.458 18.8208L104.981 21.2732"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask162_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask162_57_1615)">
+                          <path
+                            d="M104.981 21.2733L105.511 20.2061"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask163_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask163_57_1615)">
+                          <path
+                            d="M105.511 20.206L106.033 18.2759"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask164_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask164_57_1615)">
+                          <path
+                            d="M106.033 18.2759L106.555 19.3053"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask165_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask165_57_1615)">
+                          <path
+                            d="M106.555 19.3054L107.085 19.0632"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask166_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask166_57_1615)">
+                          <path
+                            d="M107.085 19.0632L107.607 19.2676"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                        <mask
+                          id="mask167_57_1615"
+                          maskUnits="userSpaceOnUse"
+                          x="19"
+                          y="2"
+                          width="90"
+                          height="37"
+                        >
+                          <path
+                            d="M19.7815 2.2063V38.5386H108.341V2.2063H19.7815Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask167_57_1615)">
+                          <path
+                            d="M107.607 19.2673L108.13 17.7913"
+                            stroke="#F53E33"
+                            strokeWidth="0.756923"
+                            strokeMiterlimit="10"
+                            strokeLinecap="square"
+                            strokeLinejoin="bevel"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_57_1615">
+                      <rect
+                        width="126.154"
+                        height="37.8461"
+                        fill="white"
+                        transform="translate(0.984619 0.692627)"
+                      />
+                    </clipPath>
+                    <clipPath id="clip1_57_1615">
+                      <rect
+                        width="126.154"
+                        height="37.8461"
+                        fill="white"
+                        transform="translate(0.984619 0.692627)"
+                      />
+                    </clipPath>
+                    <clipPath id="clip2_57_1615">
+                      <rect
+                        width="88.56"
+                        height="37.8461"
+                        fill="white"
+                        transform="translate(19.7815 0.692627)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li className="border rounded-lg px-2 py-2   min-w-72 md:max-w-40  border-gray-200 shadow-sm border-solid">
             <div className="flex flex-col">
               <div className="flex items-center gap-2 mb-1">
                 <div>

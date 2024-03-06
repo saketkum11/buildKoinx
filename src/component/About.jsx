@@ -38,8 +38,8 @@ const About = () => {
         dui
       </p>
       <h2 className="font-bold text-lg py-4">Already Holding Crypto?</h2>
-      <div className="flex flex-col gap-4">
-        <div className="py-4 flex gap-6 bg-gradient-to-br from-green-400 to-blue-900 rounded-lg p-3">
+      <div className="flex flex-col lg:flex-row gap-4">
+        <div className="py-4 w-full flex gap-6 bg-gradient-to-br from-green-400 to-blue-900 rounded-lg p-3">
           <img
             src="./assets/profite.jpg"
             className="w-28 h-28 rounded-lg"
@@ -78,7 +78,7 @@ const About = () => {
             </button>
           </div>
         </div>
-        <div className="  flex gap-6 bg-gradient-to-br from-orange-400 to-rose-500 rounded-lg p-3">
+        <div className="w-full  flex gap-6 bg-gradient-to-br from-orange-400 to-rose-500 rounded-lg p-3">
           <img
             src="./assets/profite.jpg"
             className="w-28 h-28 rounded-lg"

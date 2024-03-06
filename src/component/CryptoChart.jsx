@@ -24,7 +24,7 @@ const CryptoChart = () => {
       </div>
 
       <div className="pt-6">
-        <div>
+        <div className="sm:flex sm:items-center sm:justify-between">
           <p className="pb-2 font-bold">Bitcoin Price Chart (USD)</p>
           <ul className="flex gap-2 font-bold text-xs text-gray-500">
             <li>1H</li>

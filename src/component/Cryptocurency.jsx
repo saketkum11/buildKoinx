@@ -36,7 +36,7 @@ const Cryptocurency = () => {
         </div>
       </div>
       <div>
-        <span className="bg-gray-400 px-3 py-2 text-white rounded text-base">
+        <span className="bg-gray-400 px-3 py-2 text-white rounded-lg text-base">
           Rank #1
         </span>
       </div>
