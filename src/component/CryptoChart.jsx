@@ -54,9 +54,11 @@ const CryptoChart = ({ cryptoCoinData }) => {
       <div className="pt-6">
         <div className="sm:flex sm:items-center sm:justify-between">
           <p className="pb-2 font-bold">Bitcoin Price Chart (USD)</p>
-          <ul className="flex gap-2 font-bold text-xs text-gray-500">
+          <ul className="flex gap-4 font-bold text-xs text-gray-500 items-center">
             <li>1H</li>
-            <li>24H</li>
+            <li className="text-blue-500 px-2 py-1 bg-blue-100 rounded-xl">
+              24H
+            </li>
             <li>7D</li>
             <li>1M</li>
             <li>3M</li>
@@ -65,7 +67,7 @@ const CryptoChart = ({ cryptoCoinData }) => {
             <li>ALL</li>
           </ul>
         </div>
-        <div className="min-h-96">
+        <div className="h-auto">
           <TradingViewWidget />
         </div>
       </div>
