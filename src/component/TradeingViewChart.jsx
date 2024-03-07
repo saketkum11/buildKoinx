@@ -37,19 +37,7 @@ function TradingViewWidget() {
     container.current.appendChild(script);
   }, []);
 
-  return (
-    <div className="tradingview-widget-container w-full " ref={container}>
-      <div
-        className="tradingview-widget-container__widget "
-        style={{ height: "calc(100% - 32px)", width: "100%" }}
-      ></div>
-      <div className="tradingview-widget-copyright">
-        <Link to="https://www.tradingview.com/">
-          <span className="blue-text">Track all markets on TradingView</span>
-        </Link>
-      </div>
-    </div>
-  );
+  return <div className="w-full h-full" ref={container}></div>;
 }
 
 export default memo(TradingViewWidget);
