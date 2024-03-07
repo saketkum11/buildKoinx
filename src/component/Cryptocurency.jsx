@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Cryptocurency = () => {
   return (
     <div className="flex justify-start items-center gap-4">

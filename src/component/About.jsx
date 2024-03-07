@@ -45,11 +45,11 @@ const About = () => {
             className="w-28 h-28 rounded-lg"
             alt=""
           />
-          <div>
-            <p className="text-white text-lg  font-bold pb-4">
+          <div className=" ">
+            <p className="text-white text-lg md:text-xl  font-bold pb-4">
               Calculate your Profits
             </p>
-            <button className="bg-white flex items-center px-4 py-2 gap-1 rounded-lg">
+            <button className="bg-white flex items-center  px-4 py-2 gap-4 rounded-lg">
               <span className="font-bold text-xs">Check out</span>
               <span>
                 <svg
@@ -85,10 +85,10 @@ const About = () => {
             alt=""
           />
           <div>
-            <p className="text-white text-lg font-bold pb-4">
+            <p className="text-white text-lg md:text-xl font-bold pb-4">
               Calculate your tax liability
             </p>
-            <button className="bg-white flex items-center px-4 py-2 gap-1 rounded-lg">
+            <button className="bg-white flex items-center px-4 py-2 gap-4  rounded-lg">
               <span className="font-bold text-xs">Check out</span>
               <span>
                 <svg
