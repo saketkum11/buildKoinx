@@ -24,7 +24,7 @@ const Home = () => {
         <div className="mx-auto px-3">
           <Breadcrumbs />
           <div className="lg:grid lg:grid-cols-12 md:gap-4">
-            <div className="sm:col-span-8">
+            <div className=" mx-2 sm:m-0 sm:col-span-8">
               <section className="bg-white flex flex-col justify-start  p-4 rounded-lg ">
                 <div className="pb-4">
                   <Cryptocurency />

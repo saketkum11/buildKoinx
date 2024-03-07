@@ -12,7 +12,7 @@ const CryptoChart = ({ cryptoCoinData }) => {
             ₹ {cryptoCoinData.inr}
           </p>
         </div>
-        <div className="flex items-center gap-3  px-2 py-1 ">
+        <div className="flex flex-wrap items-center gap-3  px-2 py-1 ">
           <span
             className={`${
               cryptoCoinData.usd_24h_change < 0
@@ -54,7 +54,7 @@ const CryptoChart = ({ cryptoCoinData }) => {
       <div className="pt-6">
         <div className="sm:flex sm:items-center sm:justify-between">
           <p className="pb-2 font-bold">Bitcoin Price Chart (USD)</p>
-          <ul className="flex gap-4 font-bold text-xs text-gray-500 items-center">
+          <ul className="flex flex-wrap gap-4 font-bold text-xs text-gray-500 items-center">
             <li>1H</li>
             <li className="text-blue-500 px-2 py-1 bg-blue-100 rounded-xl">
               24H

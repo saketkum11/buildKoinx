@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const Cryptocurency = () => {
   return (
-    <div className="flex justify-start items-center gap-4">
+    <div className="flex flex-wrap justify-start items-center gap-4">
       <div className="flex items-center gap-4">
         <span>
           <svg

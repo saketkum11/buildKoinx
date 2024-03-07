@@ -208,8 +208,10 @@ const Sentiment = () => {
         <div className="flex flex-col ">
           <div className="flex items-center py-2 gap-4">
             <span className="pr-2 font-bold text-gray-500">Buy</span>
-            <div className="flex items-center gap-2">
-              <div className="h-3 w-24 md:w-80 rounded-sm bg-emerald-600"></div>
+            <div className="flex  flex-nowrap items-center gap-2">
+              <div className="  flex w-full items-center gap-4 rounded-sm ">
+                <div className="h-3 w-28 md:w-56   rounded-sm bg-emerald-600"></div>
+              </div>
               <span className="text-gray-400 font-bold">76%</span>
             </div>
           </div>
