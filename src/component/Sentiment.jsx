@@ -209,7 +209,7 @@ const Sentiment = () => {
           <div className="flex items-center py-2 gap-4">
             <span className="pr-2 font-bold text-gray-500">Buy</span>
             <div className="flex items-center gap-2">
-              <div className="h-3 w-32 md:w-80 rounded-sm bg-emerald-600"></div>
+              <div className="h-3 w-24 md:w-80 rounded-sm bg-emerald-600"></div>
               <span className="text-gray-400 font-bold">76%</span>
             </div>
           </div>

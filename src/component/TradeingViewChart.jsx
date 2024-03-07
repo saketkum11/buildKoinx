@@ -1,7 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 // TradingViewWidget.jsx
 import { useEffect, useRef, memo } from "react";
-import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react-refresh/only-export-components
 // TradingViewWidget.jsx
