@@ -67,7 +67,7 @@ const CryptoChart = ({ cryptoCoinData }) => {
             <li>ALL</li>
           </ul>
         </div>
-        <div className="h-full">
+        <div className="h-96">
           <TradingViewWidget />
         </div>
       </div>
