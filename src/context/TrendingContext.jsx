@@ -14,7 +14,6 @@ const TrendingProvider = ({ children }) => {
           data: { coins },
         } = await axios.get("https://api.coingecko.com/api/v3/search/trending");
         setTrendingData(coins);
-        console.log("from trending", coins);
       } catch (error) {
         console.error(error);
       }
